@@ -1,0 +1,60 @@
+--protocol cold --dataset MealRec+H --model CoHeat --seed 0 --layers 1 --min-epochs 100
+--protocol cold --dataset MealRec+H --model CoHeat --seed 1 --layers 1 --min-epochs 100
+--protocol cold --dataset MealRec+H --model CoHeat --seed 2 --layers 1 --min-epochs 100
+--protocol cold --dataset MealRec+H --model CoHeat --seed 3 --layers 1 --min-epochs 100
+--protocol cold --dataset MealRec+H --model CoHeat --seed 4 --layers 1 --min-epochs 100
+--protocol cold --dataset MealRec+L --model CoHeat --seed 0 --layers 1 --min-epochs 100
+--protocol cold --dataset MealRec+L --model CoHeat --seed 1 --layers 1 --min-epochs 100
+--protocol cold --dataset MealRec+L --model CoHeat --seed 2 --layers 1 --min-epochs 100
+--protocol cold --dataset MealRec+L --model CoHeat --seed 3 --layers 1 --min-epochs 100
+--protocol cold --dataset MealRec+L --model CoHeat --seed 4 --layers 1 --min-epochs 100
+--protocol cold_p1 --dataset MealRec+H --model CoHeat --seed 0 --layers 1 --min-epochs 100
+--protocol cold_p1 --dataset MealRec+H --model CoHeat --seed 1 --layers 1 --min-epochs 100
+--protocol cold_p1 --dataset MealRec+H --model CoHeat --seed 2 --layers 1 --min-epochs 100
+--protocol cold_p1 --dataset MealRec+H --model CoHeat --seed 3 --layers 1 --min-epochs 100
+--protocol cold_p1 --dataset MealRec+H --model CoHeat --seed 4 --layers 1 --min-epochs 100
+--protocol cold_p1 --dataset MealRec+L --model CoHeat --seed 0 --layers 1 --min-epochs 100
+--protocol cold_p1 --dataset MealRec+L --model CoHeat --seed 1 --layers 1 --min-epochs 100
+--protocol cold_p1 --dataset MealRec+L --model CoHeat --seed 2 --layers 1 --min-epochs 100
+--protocol cold_p1 --dataset MealRec+L --model CoHeat --seed 3 --layers 1 --min-epochs 100
+--protocol cold_p1 --dataset MealRec+L --model CoHeat --seed 4 --layers 1 --min-epochs 100
+--protocol cold --dataset MealRec+H --model CrossCBR --seed 0
+--protocol cold --dataset MealRec+H --model CrossCBR --seed 1
+--protocol cold --dataset MealRec+H --model CrossCBR --seed 2
+--protocol cold --dataset MealRec+H --model CrossCBR --seed 3
+--protocol cold --dataset MealRec+H --model CrossCBR --seed 4
+--protocol cold --dataset MealRec+L --model CrossCBR --seed 0
+--protocol cold --dataset MealRec+L --model CrossCBR --seed 1
+--protocol cold --dataset MealRec+L --model CrossCBR --seed 2
+--protocol cold --dataset MealRec+L --model CrossCBR --seed 3
+--protocol cold --dataset MealRec+L --model CrossCBR --seed 4
+--protocol cold_p1 --dataset MealRec+H --model CrossCBR --seed 0
+--protocol cold_p1 --dataset MealRec+H --model CrossCBR --seed 1
+--protocol cold_p1 --dataset MealRec+H --model CrossCBR --seed 2
+--protocol cold_p1 --dataset MealRec+H --model CrossCBR --seed 3
+--protocol cold_p1 --dataset MealRec+H --model CrossCBR --seed 4
+--protocol cold_p1 --dataset MealRec+L --model CrossCBR --seed 0
+--protocol cold_p1 --dataset MealRec+L --model CrossCBR --seed 1
+--protocol cold_p1 --dataset MealRec+L --model CrossCBR --seed 2
+--protocol cold_p1 --dataset MealRec+L --model CrossCBR --seed 3
+--protocol cold_p1 --dataset MealRec+L --model CrossCBR --seed 4
+--protocol cold --dataset MealRec+H --model MultiCBR --seed 0
+--protocol cold --dataset MealRec+H --model MultiCBR --seed 1
+--protocol cold --dataset MealRec+H --model MultiCBR --seed 2
+--protocol cold --dataset MealRec+H --model MultiCBR --seed 3
+--protocol cold --dataset MealRec+H --model MultiCBR --seed 4
+--protocol cold --dataset MealRec+L --model MultiCBR --seed 0
+--protocol cold --dataset MealRec+L --model MultiCBR --seed 1
+--protocol cold --dataset MealRec+L --model MultiCBR --seed 2
+--protocol cold --dataset MealRec+L --model MultiCBR --seed 3
+--protocol cold --dataset MealRec+L --model MultiCBR --seed 4
+--protocol cold_p1 --dataset MealRec+H --model MultiCBR --seed 0
+--protocol cold_p1 --dataset MealRec+H --model MultiCBR --seed 1
+--protocol cold_p1 --dataset MealRec+H --model MultiCBR --seed 2
+--protocol cold_p1 --dataset MealRec+H --model MultiCBR --seed 3
+--protocol cold_p1 --dataset MealRec+H --model MultiCBR --seed 4
+--protocol cold_p1 --dataset MealRec+L --model MultiCBR --seed 0
+--protocol cold_p1 --dataset MealRec+L --model MultiCBR --seed 1
+--protocol cold_p1 --dataset MealRec+L --model MultiCBR --seed 2
+--protocol cold_p1 --dataset MealRec+L --model MultiCBR --seed 3
+--protocol cold_p1 --dataset MealRec+L --model MultiCBR --seed 4

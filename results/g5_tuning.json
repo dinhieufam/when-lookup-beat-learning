@@ -1,0 +1,86 @@
+{
+  "NetEase": {
+    "CrossCBR": {
+      "setting": {
+        "lr": 0.001,
+        "l2": 1e-05,
+        "is_default": false
+      },
+      "n_seeds": 5,
+      "default_recall@20": 0.07813327014446259,
+      "tuned_recall@20": 0.08297981321811676,
+      "bundlecomp_recall@20": 0.0888981404618507,
+      "bundlecomp_minus_tuned": 0.005918326579825782,
+      "wilcoxon_p": 0.15247930524351078
+    },
+    "MultiCBR": {
+      "setting": {
+        "lr": 0.001,
+        "l2": 1e-05,
+        "is_default": true
+      },
+      "n_seeds": 5,
+      "default_recall@20": 0.08648054301738739,
+      "tuned_recall@20": 0.08648054301738739,
+      "bundlecomp_recall@20": 0.0888981404618507,
+      "bundlecomp_minus_tuned": 0.0024175919480805682,
+      "wilcoxon_p": 0.03455863389862681
+    }
+  },
+  "Youshu": {
+    "CrossCBR": {
+      "setting": {
+        "lr": 0.001,
+        "l2": 0.0001,
+        "is_default": true
+      },
+      "n_seeds": 5,
+      "default_recall@20": 0.2740047574043274,
+      "tuned_recall@20": 0.2740047872066498,
+      "bundlecomp_recall@20": 0.2828791674838055,
+      "bundlecomp_minus_tuned": 0.008874391115308066,
+      "wilcoxon_p": 0.14087051466284317
+    },
+    "MultiCBR": {
+      "setting": {
+        "lr": 0.001,
+        "l2": 1e-05,
+        "is_default": true
+      },
+      "n_seeds": 5,
+      "default_recall@20": 0.2800569534301758,
+      "tuned_recall@20": 0.2800569236278534,
+      "bundlecomp_recall@20": 0.2828791674838055,
+      "bundlecomp_minus_tuned": 0.002822213379451613,
+      "wilcoxon_p": 0.08702820272706142
+    }
+  },
+  "iFashion": {
+    "CrossCBR": {
+      "setting": {
+        "lr": 0.0001,
+        "l2": 4e-06,
+        "is_default": false
+      },
+      "n_seeds": 5,
+      "default_recall@20": 0.09298889338970184,
+      "tuned_recall@20": 0.09671567380428314,
+      "bundlecomp_recall@20": 0.080722917196647,
+      "bundlecomp_minus_tuned": -0.01599275016293128,
+      "wilcoxon_p": 1.4463229570026203e-296
+    },
+    "MultiCBR": {
+      "setting": {
+        "lr": 0.0001,
+        "l2": 1e-06,
+        "is_default": false
+      },
+      "n_seeds": 5,
+      "default_recall@20": 0.09095940738916397,
+      "tuned_recall@20": 0.10143784433603287,
+      "bundlecomp_recall@20": 0.080722917196647,
+      "bundlecomp_minus_tuned": -0.02071492005548859,
+      "wilcoxon_p": 0.0
+    }
+  }
+}

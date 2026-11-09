@@ -1,0 +1,7 @@
+--protocol p1 --dataset NetEase --model CrossCBR --seed 0 --lr 0.001 --l2 1e-06 --root runs_tune --tag lr0.001_l21e-06
+--protocol p1 --dataset iFashion --model CrossCBR --seed 0 --lr 0.0003 --l2 4e-07 --root runs_tune --tag lr0.0003_l24e-07
+--protocol p1 --dataset iFashion --model CrossCBR --seed 0 --lr 0.0001 --l2 4e-06 --root runs_tune --tag lr0.0001_l24e-06
+--protocol p1 --dataset iFashion --model CrossCBR --seed 0 --lr 0.0001 --l2 4e-07 --root runs_tune --tag lr0.0001_l24e-07
+--protocol p1 --dataset iFashion --model MultiCBR --seed 0 --lr 0.0003 --l2 1e-07 --root runs_tune --tag lr0.0003_l21e-07
+--protocol p1 --dataset iFashion --model MultiCBR --seed 0 --lr 0.0001 --l2 1e-06 --root runs_tune --tag lr0.0001_l21e-06
+--protocol p1 --dataset iFashion --model MultiCBR --seed 0 --lr 0.0001 --l2 1e-07 --root runs_tune --tag lr0.0001_l21e-07

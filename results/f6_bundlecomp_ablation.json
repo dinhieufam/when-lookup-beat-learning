@@ -1,0 +1,150 @@
+{
+  "B": 2000,
+  "seed": 0,
+  "datasets": {
+    "MealRec+H": {
+      "full": 0.5026674169987888,
+      "nocover": 0.4995143122796834,
+      "seeds": [
+        5,
+        3
+      ],
+      "best_gnn": "CrossCBR",
+      "best_gnn_r20": 0.36340460181236267,
+      "nocover_minus_full": {
+        "diff": -0.003153104719105404,
+        "ci95": [
+          -0.014279766583341328,
+          0.00742720383100857
+        ],
+        "excludes_zero": false,
+        "seeds": [
+          3,
+          5
+        ],
+        "n_users": 1114
+      },
+      "nocover_minus_best_gnn": {
+        "diff": 0.13610971046732073,
+        "ci95": [
+          0.11559886447997135,
+          0.15703286384509638
+        ],
+        "excludes_zero": true,
+        "seeds": [
+          3,
+          5
+        ],
+        "n_users": 1114
+      }
+    },
+    "MealRec+L": {
+      "full": 0.19556836375280182,
+      "nocover": 0.18255111843008096,
+      "seeds": [
+        5,
+        3
+      ],
+      "best_gnn": "CrossCBR",
+      "best_gnn_r20": 0.113090381026268,
+      "nocover_minus_full": {
+        "diff": -0.01301724532272086,
+        "ci95": [
+          -0.02559044645716115,
+          -0.002240027903572628
+        ],
+        "excludes_zero": true,
+        "seeds": [
+          3,
+          5
+        ],
+        "n_users": 694
+      },
+      "nocover_minus_best_gnn": {
+        "diff": 0.06946073740381295,
+        "ci95": [
+          0.04905365057463417,
+          0.08974547651939183
+        ],
+        "excludes_zero": true,
+        "seeds": [
+          3,
+          5
+        ],
+        "n_users": 694
+      }
+    },
+    "Youshu": {
+      "full": 0.28205608646847896,
+      "nocover": 0.2687385564710424,
+      "seeds": [
+        5,
+        3
+      ],
+      "best_gnn": "MultiCBR",
+      "best_gnn_r20": 0.2800569236278534,
+      "nocover_minus_full": {
+        "diff": -0.013317529997436572,
+        "ci95": [
+          -0.020131285726291547,
+          -0.006947701930870365
+        ],
+        "excludes_zero": true,
+        "seeds": [
+          3,
+          5
+        ],
+        "n_users": 2959
+      },
+      "nocover_minus_best_gnn": {
+        "diff": -0.011318367156811004,
+        "ci95": [
+          -0.021072467687692432,
+          -0.0014812500063981898
+        ],
+        "excludes_zero": true,
+        "seeds": [
+          3,
+          5
+        ],
+        "n_users": 2959
+      }
+    },
+    "NetEase": {
+      "full": 0.08888817795966206,
+      "nocover": 0.08034001159848844,
+      "seeds": [
+        5,
+        3
+      ],
+      "best_gnn": "MultiCBR",
+      "best_gnn_r20": 0.08648055046796799,
+      "nocover_minus_full": {
+        "diff": -0.008548166361173615,
+        "ci95": [
+          -0.010375793732284526,
+          -0.006712132075710972
+        ],
+        "excludes_zero": true,
+        "seeds": [
+          3,
+          5
+        ],
+        "n_users": 18514
+      },
+      "nocover_minus_best_gnn": {
+        "diff": -0.006140538869479545,
+        "ci95": [
+          -0.009125400474358985,
+          -0.003474160111528403
+        ],
+        "excludes_zero": true,
+        "seeds": [
+          3,
+          5
+        ],
+        "n_users": 18514
+      }
+    }
+  }
+}

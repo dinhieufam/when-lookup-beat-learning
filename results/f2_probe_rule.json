@@ -1,0 +1,117 @@
+{
+  "MealRec+H/orig": {
+    "MostPop": 0.042658696333879816,
+    "TrainCover": 0.4882337140274774,
+    "Probe": 0.9656166886166463,
+    "best_legit": "TrainCover",
+    "probe_minus_legit": 0.4773829745891689,
+    "p_probe_gt_legit": 1.548539948827396e-131,
+    "passes": false,
+    "n_users": 1114
+  },
+  "MealRec+H/p1": {
+    "MostPop": 0.042658696333879816,
+    "TrainCover": 0.4882337140274774,
+    "Probe": 0.4484371850029412,
+    "Footprint": 0.4882337140274774,
+    "best_legit": "TrainCover",
+    "probe_minus_legit": -0.039796529024536176,
+    "p_probe_gt_legit": 0.9999999999980964,
+    "passes": true,
+    "n_users": 1114,
+    "footprint_minus_legit": 0.0,
+    "p_footprint_gt_legit": 1.0
+  },
+  "MealRec+L/orig": {
+    "MostPop": 0.07986825854261013,
+    "TrainCover": 0.18416472256529895,
+    "Probe": 0.9376326563286218,
+    "best_legit": "TrainCover",
+    "probe_minus_legit": 0.7534679337633229,
+    "p_probe_gt_legit": 2.1626076257628496e-112,
+    "passes": false,
+    "n_users": 694
+  },
+  "MealRec+L/p1": {
+    "MostPop": 0.07986825854261013,
+    "TrainCover": 0.18416472256529895,
+    "Probe": 0.10745620053977402,
+    "Footprint": 0.18848748913590413,
+    "best_legit": "TrainCover",
+    "probe_minus_legit": -0.07670852202552493,
+    "p_probe_gt_legit": 0.9999999999999191,
+    "passes": true,
+    "n_users": 694,
+    "footprint_minus_legit": 0.00432276657060518,
+    "p_footprint_gt_legit": 0.0416322583317752
+  },
+  "Youshu/orig": {
+    "MostPop": 0.20320964427820304,
+    "TrainCover": 0.010539799856736589,
+    "Probe": 0.021913480213824863,
+    "best_legit": "MostPop",
+    "probe_minus_legit": -0.18129616406437818,
+    "p_probe_gt_legit": 1.0,
+    "passes": true,
+    "n_users": 2959
+  },
+  "Youshu/p1": {
+    "MostPop": 0.20320964427820304,
+    "TrainCover": 0.010539799856736589,
+    "Probe": 0.015621308224828262,
+    "Footprint": 0.010624287859440204,
+    "best_legit": "MostPop",
+    "probe_minus_legit": -0.18758833605337477,
+    "p_probe_gt_legit": 1.0,
+    "passes": true,
+    "n_users": 2959,
+    "footprint_minus_legit": -0.19258535641876284,
+    "p_footprint_gt_legit": 1.0
+  },
+  "NetEase/orig": {
+    "MostPop": 0.030968464151562354,
+    "TrainCover": 0.0284094159105268,
+    "Probe": 0.01929406245445266,
+    "best_legit": "MostPop",
+    "probe_minus_legit": -0.011674401697109694,
+    "p_probe_gt_legit": 1.0,
+    "passes": true,
+    "n_users": 18514
+  },
+  "NetEase/p1": {
+    "MostPop": 0.030968464151562354,
+    "TrainCover": 0.0284094159105268,
+    "Probe": 0.005626874076225108,
+    "Footprint": 0.031003613180374923,
+    "best_legit": "MostPop",
+    "probe_minus_legit": -0.025341590075337248,
+    "p_probe_gt_legit": 1.0,
+    "passes": true,
+    "n_users": 18514,
+    "footprint_minus_legit": 3.5149028812568595e-05,
+    "p_footprint_gt_legit": 0.7440579556139455
+  },
+  "iFashion/orig": {
+    "MostPop": 0.02200389330286146,
+    "TrainCover": 0.007904445652130918,
+    "Probe": 0.20403252331730176,
+    "best_legit": "MostPop",
+    "probe_minus_legit": 0.1820286300144403,
+    "p_probe_gt_legit": 0.0,
+    "passes": false,
+    "n_users": 53897
+  },
+  "iFashion/p1": {
+    "MostPop": 0.02200389330286146,
+    "TrainCover": 0.007904445652130918,
+    "Probe": 0.010362344411707324,
+    "Footprint": 0.007931348819283078,
+    "best_legit": "MostPop",
+    "probe_minus_legit": -0.011641548891154138,
+    "p_probe_gt_legit": 1.0,
+    "passes": true,
+    "n_users": 53897,
+    "footprint_minus_legit": -0.014072544483578383,
+    "p_footprint_gt_legit": 1.0
+  }
+}

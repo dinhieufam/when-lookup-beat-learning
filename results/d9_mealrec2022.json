@@ -1,0 +1,18 @@
+{
+  "mealrec2022": {
+    "meals": 3817,
+    "user_meal": 46767,
+    "user_recipe": 151148,
+    "users": 1575,
+    "recipes": 7280,
+    "p_full_cover_given_positive": 1.0
+  },
+  "identity_with_mealrec_plus_h": {
+    "meals_matching_a_h_meal": 3817,
+    "user_meal_pairs_in_h": 46767,
+    "h_user_meal_pairs": 46767,
+    "user_recipe_pairs_in_h_user_course": 151148,
+    "h_user_course": 151148
+  },
+  "same_data_as_mealrec_plus_h": true
+}

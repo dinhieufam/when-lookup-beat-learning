@@ -1,0 +1,324 @@
+{
+  "MealRec+H": {
+    "orig": {
+      "subsets": {
+        "warm": {
+          "meals": 3810,
+          "test_positives": 4673
+        },
+        "cold": {
+          "meals": 7,
+          "test_positives": 4
+        },
+        "novel": {
+          "meals": 5,
+          "test_positives": 2
+        }
+      },
+      "models": {
+        "LightGCN": {
+          "additive_r2": 0.6450933112201305,
+          "recall@20/warm": 0.19493284182945234,
+          "recall@20/cold": 0.0,
+          "recall@20/novel": 0.0,
+          "n_seeds": 5
+        },
+        "BGCN": {
+          "additive_r2": 0.8739471641307135,
+          "recall@20/warm": 0.22503109622883408,
+          "recall@20/cold": 0.0,
+          "recall@20/novel": 0.0,
+          "n_seeds": 5
+        },
+        "CrossCBR": {
+          "additive_r2": 0.8481803984569867,
+          "recall@20/warm": 0.34187700201133037,
+          "recall@20/cold": 0.0,
+          "recall@20/novel": 0.0,
+          "n_seeds": 5
+        },
+        "MultiCBR": {
+          "additive_r2": 0.8403849919564589,
+          "recall@20/warm": 0.27671141014751327,
+          "recall@20/cold": 0.0,
+          "recall@20/novel": 0.0,
+          "n_seeds": 5
+        },
+        "HyperMBR": {
+          "additive_r2": 0.9014126367817072,
+          "recall@20/warm": 0.14599971077290003,
+          "recall@20/cold": 0.0,
+          "recall@20/novel": 0.0,
+          "n_seeds": 5
+        }
+      }
+    },
+    "p1": {
+      "subsets": {
+        "warm": {
+          "meals": 3810,
+          "test_positives": 4673
+        },
+        "cold": {
+          "meals": 7,
+          "test_positives": 4
+        },
+        "novel": {
+          "meals": 5,
+          "test_positives": 2
+        }
+      },
+      "models": {
+        "LightGCN": {
+          "additive_r2": 0.6450933141391106,
+          "recall@20/warm": 0.19493284182945234,
+          "recall@20/cold": 0.0,
+          "recall@20/novel": 0.0,
+          "n_seeds": 5
+        },
+        "BGCN": {
+          "additive_r2": 0.8737296102695412,
+          "recall@20/warm": 0.22586260144879633,
+          "recall@20/cold": 0.0,
+          "recall@20/novel": 0.0,
+          "n_seeds": 5
+        },
+        "CrossCBR": {
+          "additive_r2": 0.8486121827646173,
+          "recall@20/warm": 0.30272848635348254,
+          "recall@20/cold": 0.0,
+          "recall@20/novel": 0.0,
+          "n_seeds": 5
+        },
+        "MultiCBR": {
+          "additive_r2": 0.8323230593919673,
+          "recall@20/warm": 0.2574726867871653,
+          "recall@20/cold": 0.0,
+          "recall@20/novel": 0.0,
+          "n_seeds": 5
+        },
+        "HyperMBR": {
+          "additive_r2": 0.8913743797005427,
+          "recall@20/warm": 0.14279610827172787,
+          "recall@20/cold": 0.0,
+          "recall@20/novel": 0.0,
+          "n_seeds": 5
+        }
+      }
+    },
+    "p2": {
+      "subsets": {
+        "warm": {
+          "meals": 3814,
+          "test_positives": 4670
+        },
+        "cold": {
+          "meals": 3,
+          "test_positives": 4
+        },
+        "novel": {
+          "meals": 0,
+          "test_positives": 0
+        }
+      },
+      "models": {
+        "LightGCN": {
+          "additive_r2": 0.6883355780770802,
+          "recall@20/warm": 0.06008217649557197,
+          "recall@20/cold": 0.0,
+          "recall@20/novel": NaN,
+          "n_seeds": 5
+        },
+        "BGCN": {
+          "additive_r2": 0.8798575099842598,
+          "recall@20/warm": 0.06594060852707577,
+          "recall@20/cold": 0.0,
+          "recall@20/novel": NaN,
+          "n_seeds": 5
+        },
+        "CrossCBR": {
+          "additive_r2": 0.8629038488176313,
+          "recall@20/warm": 0.07607162852455183,
+          "recall@20/cold": 0.0,
+          "recall@20/novel": NaN,
+          "n_seeds": 5
+        },
+        "MultiCBR": {
+          "additive_r2": 0.8064881198454941,
+          "recall@20/warm": 0.09938799296940677,
+          "recall@20/cold": 0.0,
+          "recall@20/novel": NaN,
+          "n_seeds": 5
+        },
+        "HyperMBR": {
+          "additive_r2": 0.8881834616142841,
+          "recall@20/warm": 0.05497975150148047,
+          "recall@20/cold": 0.0,
+          "recall@20/novel": NaN,
+          "n_seeds": 5
+        }
+      }
+    }
+  },
+  "MealRec+L": {
+    "orig": {
+      "subsets": {
+        "warm": {
+          "meals": 3299,
+          "test_positives": 1031
+        },
+        "cold": {
+          "meals": 279,
+          "test_positives": 150
+        },
+        "novel": {
+          "meals": 209,
+          "test_positives": 114
+        }
+      },
+      "models": {
+        "LightGCN": {
+          "additive_r2": 0.567484303157516,
+          "recall@20/warm": 0.0636102564102564,
+          "recall@20/cold": 0.0,
+          "recall@20/novel": 0.0,
+          "n_seeds": 5
+        },
+        "BGCN": {
+          "additive_r2": 0.8632429621429469,
+          "recall@20/warm": 0.10353310023310025,
+          "recall@20/cold": 0.00717948717948718,
+          "recall@20/novel": 0.0004705882352941177,
+          "n_seeds": 5
+        },
+        "CrossCBR": {
+          "additive_r2": 0.864779001459454,
+          "recall@20/warm": 0.18227731157731158,
+          "recall@20/cold": 0.008547008547008548,
+          "recall@20/novel": 0.0,
+          "n_seeds": 5
+        },
+        "MultiCBR": {
+          "additive_r2": 0.8183057137401899,
+          "recall@20/warm": 0.1520130869130869,
+          "recall@20/cold": 0.0105982905982906,
+          "recall@20/novel": 0.0028235294117647056,
+          "n_seeds": 5
+        },
+        "HyperMBR": {
+          "additive_r2": 0.6718345031793362,
+          "recall@20/warm": 0.05368162393162392,
+          "recall@20/cold": 0.004102564102564103,
+          "recall@20/novel": 0.005764705882352941,
+          "n_seeds": 5
+        }
+      }
+    },
+    "p1": {
+      "subsets": {
+        "warm": {
+          "meals": 3299,
+          "test_positives": 1031
+        },
+        "cold": {
+          "meals": 279,
+          "test_positives": 150
+        },
+        "novel": {
+          "meals": 209,
+          "test_positives": 114
+        }
+      },
+      "models": {
+        "LightGCN": {
+          "additive_r2": 0.5674843022593403,
+          "recall@20/warm": 0.0636102564102564,
+          "recall@20/cold": 0.0,
+          "recall@20/novel": 0.0,
+          "n_seeds": 5
+        },
+        "BGCN": {
+          "additive_r2": 0.8601135129499013,
+          "recall@20/warm": 0.10071466311466311,
+          "recall@20/cold": 0.00717948717948718,
+          "recall@20/novel": 0.0004705882352941177,
+          "n_seeds": 5
+        },
+        "CrossCBR": {
+          "additive_r2": 0.8613268334467641,
+          "recall@20/warm": 0.10553362193362195,
+          "recall@20/cold": 0.0,
+          "recall@20/novel": 0.0,
+          "n_seeds": 5
+        },
+        "MultiCBR": {
+          "additive_r2": 0.7762326731827989,
+          "recall@20/warm": 0.10251269841269842,
+          "recall@20/cold": 0.0017094017094017096,
+          "recall@20/novel": 0.0,
+          "n_seeds": 5
+        },
+        "HyperMBR": {
+          "additive_r2": 0.6847450294437181,
+          "recall@20/warm": 0.05862136752136752,
+          "recall@20/cold": 0.0017094017094017096,
+          "recall@20/novel": 0.002352941176470588,
+          "n_seeds": 5
+        }
+      }
+    },
+    "p2": {
+      "subsets": {
+        "warm": {
+          "meals": 3263,
+          "test_positives": 983
+        },
+        "cold": {
+          "meals": 315,
+          "test_positives": 198
+        },
+        "novel": {
+          "meals": 239,
+          "test_positives": 142
+        }
+      },
+      "models": {
+        "LightGCN": {
+          "additive_r2": 0.5844308330357064,
+          "recall@20/warm": 0.03036623750280934,
+          "recall@20/cold": 0.0,
+          "recall@20/novel": 0.0,
+          "n_seeds": 5
+        },
+        "BGCN": {
+          "additive_r2": 0.8218572818042574,
+          "recall@20/warm": 0.03218088346704547,
+          "recall@20/cold": 0.0009090909090909091,
+          "recall@20/novel": 0.0,
+          "n_seeds": 5
+        },
+        "CrossCBR": {
+          "additive_r2": 0.8396015937831935,
+          "recall@20/warm": 0.04219683465800808,
+          "recall@20/cold": 0.00909090909090909,
+          "recall@20/novel": 0.012658227848101267,
+          "n_seeds": 5
+        },
+        "MultiCBR": {
+          "additive_r2": 0.7785360896277043,
+          "recall@20/warm": 0.06252086490333839,
+          "recall@20/cold": 0.0,
+          "recall@20/novel": 0.0,
+          "n_seeds": 5
+        },
+        "HyperMBR": {
+          "additive_r2": 0.7534373165690681,
+          "recall@20/warm": 0.017627199099912647,
+          "recall@20/cold": 0.0,
+          "recall@20/novel": 0.0,
+          "n_seeds": 5
+        }
+      }
+    }
+  }
+}

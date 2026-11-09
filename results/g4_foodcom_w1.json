@@ -1,0 +1,41 @@
+{
+  "window": 1,
+  "cutoffs": {
+    "train_until": "2010-03-29 00:00:00",
+    "tune_until": "2011-08-17 00:00:00"
+  },
+  "baselines": {
+    "SlotPop": {
+      "tune": {
+        "slot_recall@20": 0.023782838166399808,
+        "slot_recall@100": 0.05581425804028543,
+        "meal_hit@20": 0.0,
+        "meal_hit@100": 0.0,
+        "sessions": 292
+      },
+      "test": {
+        "slot_recall@20": 0.011786529680365296,
+        "slot_recall@100": 0.048708093656723794,
+        "meal_hit@20": 0.0,
+        "meal_hit@100": 0.0,
+        "sessions": 292
+      }
+    },
+    "ItemKNN": {
+      "tune": {
+        "slot_recall@20": 0.00686834094368341,
+        "slot_recall@100": 0.017808219178082188,
+        "meal_hit@20": 0.0,
+        "meal_hit@100": 0.0,
+        "sessions": 292
+      },
+      "test": {
+        "slot_recall@20": 0.004375951293759513,
+        "slot_recall@100": 0.01899733637747336,
+        "meal_hit@20": 0.0,
+        "meal_hit@100": 0.0,
+        "sessions": 292
+      }
+    }
+  }
+}

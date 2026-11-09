@@ -1,0 +1,308 @@
+{
+  "reported_disco_meal": {
+    "CrossCBR": [
+      0.0022,
+      0.0005
+    ],
+    "MultiCBR": [
+      0.0102,
+      0.0054
+    ],
+    "CoHeat": [
+      0.165,
+      0.1084
+    ],
+    "DisCo": [
+      0.2838,
+      0.1961
+    ]
+  },
+  "MealRec+H": {
+    "cold": {
+      "baselines": {
+        "MostPop": {
+          "recall@20": 0.0,
+          "ndcg@20": 0.0,
+          "recall@40": 0.0,
+          "ndcg@40": 0.0,
+          "recall@80": 0.0,
+          "ndcg@80": 0.0
+        },
+        "MealItemKNN": {
+          "recall@20": 0.0,
+          "ndcg@20": 0.0,
+          "recall@40": 0.0,
+          "ndcg@40": 0.0,
+          "recall@80": 0.0,
+          "ndcg@80": 0.0
+        },
+        "TrainCover": {
+          "recall@20": 0.3266505384413141,
+          "ndcg@20": 0.36200306875779126,
+          "recall@40": 0.4134323387830926,
+          "ndcg@40": 0.379272196918519,
+          "recall@80": 0.5314799711973538,
+          "ndcg@80": 0.40412069325484296
+        },
+        "CoverHeuristic": {
+          "recall@20": 0.9556607142323378,
+          "ndcg@20": 0.871912838150144,
+          "recall@40": 0.9813306909018942,
+          "ndcg@40": 0.879329944164813,
+          "recall@80": 0.993857757847093,
+          "ndcg@80": 0.8842851028023123
+        }
+      },
+      "models": {
+        "CoHeat": {
+          "tune_sel/recall@20/mean": 0.292003681670884,
+          "tune_sel/ndcg@20/mean": 0.21203004727345767,
+          "test_sel/recall@20/mean": 0.2949460199343468,
+          "tune_sel/recall@20/sd": 0.003990588517800071,
+          "tune_sel/ndcg@20/sd": 0.0041266938810728,
+          "test_sel/recall@20/sd": 0.001881857656070544,
+          "n_seeds": 5
+        },
+        "CrossCBR": {
+          "tune_sel/recall@20/mean": 1.110758467140117e-05,
+          "tune_sel/ndcg@20/mean": 8.6985220303685e-05,
+          "test_sel/recall@20/mean": 0.00031072491521576425,
+          "tune_sel/recall@20/sd": 1.0745430196497787e-05,
+          "tune_sel/ndcg@20/sd": 8.660580145875008e-05,
+          "test_sel/recall@20/sd": 0.00024922942882641964,
+          "n_seeds": 5
+        },
+        "MultiCBR": {
+          "tune_sel/recall@20/mean": 0.02882086011816386,
+          "tune_sel/ndcg@20/mean": 0.013531532796633763,
+          "test_sel/recall@20/mean": 0.030539473352460055,
+          "tune_sel/recall@20/sd": 0.0029638147529651056,
+          "tune_sel/ndcg@20/sd": 0.0010114233604805434,
+          "test_sel/recall@20/sd": 0.0030215577081922876,
+          "n_seeds": 5
+        }
+      },
+      "cold_meals": {
+        "train": 2672,
+        "tune": 382,
+        "test": 763
+      },
+      "user_course_edges": 151148
+    },
+    "cold_p1": {
+      "baselines": {
+        "MostPop": {
+          "recall@20": 0.0,
+          "ndcg@20": 0.0,
+          "recall@40": 0.0,
+          "ndcg@40": 0.0,
+          "recall@80": 0.0,
+          "ndcg@80": 0.0
+        },
+        "MealItemKNN": {
+          "recall@20": 0.0,
+          "ndcg@20": 0.0,
+          "recall@40": 0.0,
+          "ndcg@40": 0.0,
+          "recall@80": 0.0,
+          "ndcg@80": 0.0
+        },
+        "TrainCover": {
+          "recall@20": 0.3266505384413141,
+          "ndcg@20": 0.36200306875779126,
+          "recall@40": 0.4134323387830926,
+          "ndcg@40": 0.379272196918519,
+          "recall@80": 0.5314799711973538,
+          "ndcg@80": 0.40412069325484296
+        },
+        "CoverHeuristic": {
+          "recall@20": 0.30601561780639347,
+          "ndcg@20": 0.3553441712043434,
+          "recall@40": 0.3206954460461998,
+          "ndcg@40": 0.35546055631094836,
+          "recall@80": 0.39217707832303234,
+          "ndcg@80": 0.3695477950354065
+        }
+      },
+      "models": {
+        "CoHeat": {
+          "tune_sel/recall@20/mean": 0.2387727887713984,
+          "tune_sel/ndcg@20/mean": 0.17515140042103156,
+          "test_sel/recall@20/mean": 0.24333656347230548,
+          "tune_sel/recall@20/sd": 0.0024386411190828357,
+          "tune_sel/ndcg@20/sd": 0.003936679757181601,
+          "test_sel/recall@20/sd": 0.000871035203907263,
+          "n_seeds": 5
+        },
+        "CrossCBR": {
+          "tune_sel/recall@20/mean": 1.0985307505357113e-05,
+          "tune_sel/ndcg@20/mean": 7.894534325357243e-05,
+          "test_sel/recall@20/mean": 0.00011404139017812866,
+          "tune_sel/recall@20/sd": 1.1236494736419032e-05,
+          "tune_sel/ndcg@20/sd": 8.226684342301164e-05,
+          "test_sel/recall@20/sd": 0.00013281933870689188,
+          "n_seeds": 5
+        },
+        "MultiCBR": {
+          "tune_sel/recall@20/mean": 0.025585867183524486,
+          "tune_sel/ndcg@20/mean": 0.012545804644635375,
+          "test_sel/recall@20/mean": 0.02728825985818283,
+          "tune_sel/recall@20/sd": 0.0024722943008667927,
+          "tune_sel/ndcg@20/sd": 0.0006479209433541954,
+          "test_sel/recall@20/sd": 0.002619680562338098,
+          "n_seeds": 5
+        }
+      },
+      "cold_meals": {
+        "train": 2672,
+        "tune": 382,
+        "test": 763
+      },
+      "user_course_edges": 144209
+    }
+  },
+  "MealRec+L": {
+    "cold": {
+      "baselines": {
+        "MostPop": {
+          "recall@20": 0.0,
+          "ndcg@20": 0.0,
+          "recall@40": 0.0,
+          "ndcg@40": 0.0,
+          "recall@80": 0.0,
+          "ndcg@80": 0.0
+        },
+        "MealItemKNN": {
+          "recall@20": 0.0009380863039399625,
+          "ndcg@20": 0.00032966485764999645,
+          "recall@40": 0.005472170106316447,
+          "ndcg@40": 0.0012997999589135594,
+          "recall@80": 0.01704190118824265,
+          "ndcg@80": 0.0033462037564338212
+        },
+        "TrainCover": {
+          "recall@20": 0.10355811975183457,
+          "ndcg@20": 0.060156868780071586,
+          "recall@40": 0.12869971925559712,
+          "ndcg@40": 0.06634434814529466,
+          "recall@80": 0.18545946722078596,
+          "ndcg@80": 0.07781698259907623
+        },
+        "CoverHeuristic": {
+          "recall@20": 0.9365802896290701,
+          "ndcg@20": 0.7165290990717078,
+          "recall@40": 0.966277754973815,
+          "ndcg@40": 0.7279876207093667,
+          "recall@80": 0.9892820086417647,
+          "ndcg@80": 0.7370148034859227
+        }
+      },
+      "models": {
+        "CoHeat": {
+          "tune_sel/recall@20/mean": 0.20938214774895184,
+          "tune_sel/ndcg@20/mean": 0.12397342640023734,
+          "test_sel/recall@20/mean": 0.21395452281499483,
+          "tune_sel/recall@20/sd": 0.0023596066400511646,
+          "tune_sel/ndcg@20/sd": 0.003164694588003796,
+          "test_sel/recall@20/sd": 0.0027939515680891667,
+          "n_seeds": 5
+        },
+        "CrossCBR": {
+          "tune_sel/recall@20/mean": 0.037024181780279344,
+          "tune_sel/ndcg@20/mean": 0.01925925270840812,
+          "test_sel/recall@20/mean": 0.04188659578903481,
+          "tune_sel/recall@20/sd": 0.002806010580943836,
+          "tune_sel/ndcg@20/sd": 0.0018104186729334954,
+          "test_sel/recall@20/sd": 0.005622510914180307,
+          "n_seeds": 5
+        },
+        "MultiCBR": {
+          "tune_sel/recall@20/mean": 0.052144339208622804,
+          "tune_sel/ndcg@20/mean": 0.022729137930528498,
+          "test_sel/recall@20/mean": 0.05443623638794963,
+          "tune_sel/recall@20/sd": 0.004822654363719472,
+          "tune_sel/ndcg@20/sd": 0.0011759967951713566,
+          "test_sel/recall@20/sd": 0.004137157871286626,
+          "n_seeds": 5
+        }
+      },
+      "cold_meals": {
+        "train": 2505,
+        "tune": 358,
+        "test": 715
+      },
+      "user_course_edges": 181087
+    },
+    "cold_p1": {
+      "baselines": {
+        "MostPop": {
+          "recall@20": 0.0,
+          "ndcg@20": 0.0,
+          "recall@40": 0.0,
+          "ndcg@40": 0.0,
+          "recall@80": 0.0,
+          "ndcg@80": 0.0
+        },
+        "MealItemKNN": {
+          "recall@20": 0.0009380863039399625,
+          "ndcg@20": 0.00032966485764999645,
+          "recall@40": 0.005472170106316447,
+          "ndcg@40": 0.0012997999589135594,
+          "recall@80": 0.01704190118824265,
+          "ndcg@80": 0.0033462037564338212
+        },
+        "TrainCover": {
+          "recall@20": 0.10355811975183457,
+          "ndcg@20": 0.060156868780071586,
+          "recall@40": 0.12869971925559712,
+          "ndcg@40": 0.06634434814529466,
+          "recall@80": 0.18545946722078596,
+          "ndcg@80": 0.07781698259907623
+        },
+        "CoverHeuristic": {
+          "recall@20": 0.05065025135381609,
+          "ndcg@20": 0.03195983726384518,
+          "recall@40": 0.06380742329382104,
+          "ndcg@40": 0.03518631602158515,
+          "recall@80": 0.09774063768675943,
+          "ndcg@80": 0.041383919936305406
+        }
+      },
+      "models": {
+        "CoHeat": {
+          "tune_sel/recall@20/mean": 0.09710600118340565,
+          "tune_sel/ndcg@20/mean": 0.050357775347066466,
+          "test_sel/recall@20/mean": 0.10438428080455582,
+          "tune_sel/recall@20/sd": 0.0037110591555963275,
+          "tune_sel/ndcg@20/sd": 0.0012009282537217261,
+          "test_sel/recall@20/sd": 0.0026086322114604052,
+          "n_seeds": 5
+        },
+        "CrossCBR": {
+          "tune_sel/recall@20/mean": 0.0034396497811131957,
+          "tune_sel/ndcg@20/mean": 0.0010738420353468051,
+          "test_sel/recall@20/mean": 0.007176360225140713,
+          "tune_sel/recall@20/sd": 0.002513748466356086,
+          "tune_sel/ndcg@20/sd": 0.0008076982831127933,
+          "test_sel/recall@20/sd": 0.0024907913784900106,
+          "n_seeds": 5
+        },
+        "MultiCBR": {
+          "tune_sel/recall@20/mean": 0.02984136983809888,
+          "tune_sel/ndcg@20/mean": 0.012731208840394841,
+          "test_sel/recall@20/mean": 0.03164213005349324,
+          "tune_sel/recall@20/sd": 0.004194525765206076,
+          "tune_sel/ndcg@20/sd": 0.001219931894247155,
+          "test_sel/recall@20/sd": 0.0037855095618915587,
+          "n_seeds": 5
+        }
+      },
+      "cold_meals": {
+        "train": 2505,
+        "tune": 358,
+        "test": 715
+      },
+      "user_course_edges": 173750
+    }
+  }
+}

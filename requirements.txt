@@ -1,0 +1,15 @@
+numpy>=2.0
+scipy>=1.13
+pandas>=2.2
+pytest>=8.0
+# Model training (experiments/train_bundle.py); CUDA 12.x wheel: --index-url https://download.pytorch.org/whl/cu124
+torch>=2.4
+pyyaml
+tqdm
+# HyperMBR (external/bundle-recommendation-survey) imports these at module load
+matplotlib
+scikit-learn
+networkx
+# D9: MealRec (2022) is on Google Drive
+gdown
+lightgbm

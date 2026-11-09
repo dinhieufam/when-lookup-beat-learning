@@ -1,0 +1,54 @@
+{
+  "positive_reviews_on_categorised_recipes": 568477,
+  "users": 126024,
+  "by_category": {
+    "appetizers": 67189,
+    "main-dish": 327218,
+    "desserts": 174070
+  },
+  "date_range": [
+    "2000-01-25",
+    "2018-12-20"
+  ],
+  "windows": {
+    "1d": {
+      "sessions": 2921,
+      "users": 1201,
+      "user_meal_pairs": 29311,
+      "distinct_meals": 29305,
+      "meals_with_2plus_users": 2,
+      "courses": 11338,
+      "courses_with_2plus_users": {
+        "a": 582,
+        "m": 559,
+        "d": 537
+      }
+    },
+    "7d": {
+      "sessions": 9310,
+      "users": 2252,
+      "user_meal_pairs": 175485,
+      "distinct_meals": 175409,
+      "meals_with_2plus_users": 65,
+      "courses": 34921,
+      "courses_with_2plus_users": {
+        "a": 2688,
+        "m": 3892,
+        "d": 3173
+      }
+    },
+    "30d": {
+      "sessions": 13825,
+      "users": 3652,
+      "user_meal_pairs": 1582485,
+      "distinct_meals": 1582024,
+      "meals_with_2plus_users": 407,
+      "courses": 62933,
+      "courses_with_2plus_users": {
+        "a": 5099,
+        "m": 12232,
+        "d": 7722
+      }
+    }
+  }
+}

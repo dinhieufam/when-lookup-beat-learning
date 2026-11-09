@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# OS / Python
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Downloaded data: track only documentation
+data/raw/
+
+# Large or per-run outputs; small summary JSONs in results/ are tracked
+results/runs*/
+
+# Third-party baseline code (scripts/setup_baselines.sh)
+external/
+results/*.log

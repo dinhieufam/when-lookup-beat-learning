@@ -1,0 +1,62 @@
+# F4: graph models trained by protocol replay on P1 (--replay 5), Table 5 settings, 5 seeds.
+# Slowest first. Run: python scripts/run_queue.py --jobs-file results/f4_replay_jobs.txt --max-gpus 3
+--protocol p1 --dataset iFashion --model MultiCBR --seed 0 --lr 0.0001 --l2 1e-06 --replay 5 --root runs_replay --tag lr0.0001_l21e-06
+--protocol p1 --dataset iFashion --model MultiCBR --seed 1 --lr 0.0001 --l2 1e-06 --replay 5 --root runs_replay --tag lr0.0001_l21e-06
+--protocol p1 --dataset iFashion --model MultiCBR --seed 2 --lr 0.0001 --l2 1e-06 --replay 5 --root runs_replay --tag lr0.0001_l21e-06
+--protocol p1 --dataset iFashion --model MultiCBR --seed 3 --lr 0.0001 --l2 1e-06 --replay 5 --root runs_replay --tag lr0.0001_l21e-06
+--protocol p1 --dataset iFashion --model MultiCBR --seed 4 --lr 0.0001 --l2 1e-06 --replay 5 --root runs_replay --tag lr0.0001_l21e-06
+--protocol p1 --dataset iFashion --model CrossCBR --seed 0 --lr 0.0001 --l2 4e-06 --replay 5 --root runs_replay --tag lr0.0001_l24e-06
+--protocol p1 --dataset iFashion --model CrossCBR --seed 1 --lr 0.0001 --l2 4e-06 --replay 5 --root runs_replay --tag lr0.0001_l24e-06
+--protocol p1 --dataset iFashion --model CrossCBR --seed 2 --lr 0.0001 --l2 4e-06 --replay 5 --root runs_replay --tag lr0.0001_l24e-06
+--protocol p1 --dataset iFashion --model CrossCBR --seed 3 --lr 0.0001 --l2 4e-06 --replay 5 --root runs_replay --tag lr0.0001_l24e-06
+--protocol p1 --dataset iFashion --model CrossCBR --seed 4 --lr 0.0001 --l2 4e-06 --replay 5 --root runs_replay --tag lr0.0001_l24e-06
+--protocol p1 --dataset NetEase --model MultiCBR --seed 0 --replay 5 --root runs_replay --tag upstream
+--protocol p1 --dataset NetEase --model MultiCBR --seed 1 --replay 5 --root runs_replay --tag upstream
+--protocol p1 --dataset NetEase --model MultiCBR --seed 2 --replay 5 --root runs_replay --tag upstream
+--protocol p1 --dataset NetEase --model MultiCBR --seed 3 --replay 5 --root runs_replay --tag upstream
+--protocol p1 --dataset NetEase --model MultiCBR --seed 4 --replay 5 --root runs_replay --tag upstream
+--protocol p1 --dataset NetEase --model CrossCBR --seed 0 --lr 0.001 --l2 1e-05 --replay 5 --root runs_replay --tag lr0.001_l21e-05
+--protocol p1 --dataset NetEase --model CrossCBR --seed 1 --lr 0.001 --l2 1e-05 --replay 5 --root runs_replay --tag lr0.001_l21e-05
+--protocol p1 --dataset NetEase --model CrossCBR --seed 2 --lr 0.001 --l2 1e-05 --replay 5 --root runs_replay --tag lr0.001_l21e-05
+--protocol p1 --dataset NetEase --model CrossCBR --seed 3 --lr 0.001 --l2 1e-05 --replay 5 --root runs_replay --tag lr0.001_l21e-05
+--protocol p1 --dataset NetEase --model CrossCBR --seed 4 --lr 0.001 --l2 1e-05 --replay 5 --root runs_replay --tag lr0.001_l21e-05
+--protocol p1 --dataset Youshu --model MultiCBR --seed 0 --replay 5 --root runs_replay --tag upstream
+--protocol p1 --dataset Youshu --model MultiCBR --seed 1 --replay 5 --root runs_replay --tag upstream
+--protocol p1 --dataset Youshu --model MultiCBR --seed 2 --replay 5 --root runs_replay --tag upstream
+--protocol p1 --dataset Youshu --model MultiCBR --seed 3 --replay 5 --root runs_replay --tag upstream
+--protocol p1 --dataset Youshu --model MultiCBR --seed 4 --replay 5 --root runs_replay --tag upstream
+--protocol p1 --dataset Youshu --model CrossCBR --seed 0 --replay 5 --root runs_replay --tag upstream
+--protocol p1 --dataset Youshu --model CrossCBR --seed 1 --replay 5 --root runs_replay --tag upstream
+--protocol p1 --dataset Youshu --model CrossCBR --seed 2 --replay 5 --root runs_replay --tag upstream
+--protocol p1 --dataset Youshu --model CrossCBR --seed 3 --replay 5 --root runs_replay --tag upstream
+--protocol p1 --dataset Youshu --model CrossCBR --seed 4 --replay 5 --root runs_replay --tag upstream
+--protocol p1 --dataset MealRec+H --model CrossCBR --seed 0 --lr 0.001 --l2 1e-06 --layers 1 --replay 5 --root runs_replay --tag lr0.001_l21e-06_L1
+--protocol p1 --dataset MealRec+H --model CrossCBR --seed 1 --lr 0.001 --l2 1e-06 --layers 1 --replay 5 --root runs_replay --tag lr0.001_l21e-06_L1
+--protocol p1 --dataset MealRec+H --model CrossCBR --seed 2 --lr 0.001 --l2 1e-06 --layers 1 --replay 5 --root runs_replay --tag lr0.001_l21e-06_L1
+--protocol p1 --dataset MealRec+H --model CrossCBR --seed 3 --lr 0.001 --l2 1e-06 --layers 1 --replay 5 --root runs_replay --tag lr0.001_l21e-06_L1
+--protocol p1 --dataset MealRec+H --model CrossCBR --seed 4 --lr 0.001 --l2 1e-06 --layers 1 --replay 5 --root runs_replay --tag lr0.001_l21e-06_L1
+--protocol p1 --dataset MealRec+H --model MultiCBR --seed 0 --lr 0.0003 --l2 0.0001 --layers 2 --replay 5 --root runs_replay --tag lr0.0003_l20.0001_L2
+--protocol p1 --dataset MealRec+H --model MultiCBR --seed 1 --lr 0.0003 --l2 0.0001 --layers 2 --replay 5 --root runs_replay --tag lr0.0003_l20.0001_L2
+--protocol p1 --dataset MealRec+H --model MultiCBR --seed 2 --lr 0.0003 --l2 0.0001 --layers 2 --replay 5 --root runs_replay --tag lr0.0003_l20.0001_L2
+--protocol p1 --dataset MealRec+H --model MultiCBR --seed 3 --lr 0.0003 --l2 0.0001 --layers 2 --replay 5 --root runs_replay --tag lr0.0003_l20.0001_L2
+--protocol p1 --dataset MealRec+H --model MultiCBR --seed 4 --lr 0.0003 --l2 0.0001 --layers 2 --replay 5 --root runs_replay --tag lr0.0003_l20.0001_L2
+--protocol p1 --dataset MealRec+H --model BGCN --seed 0 --lr 0.001 --l2 1e-05 --layers 2 --replay 5 --root runs_replay --tag lr0.001_l21e-05_L2
+--protocol p1 --dataset MealRec+H --model BGCN --seed 1 --lr 0.001 --l2 1e-05 --layers 2 --replay 5 --root runs_replay --tag lr0.001_l21e-05_L2
+--protocol p1 --dataset MealRec+H --model BGCN --seed 2 --lr 0.001 --l2 1e-05 --layers 2 --replay 5 --root runs_replay --tag lr0.001_l21e-05_L2
+--protocol p1 --dataset MealRec+H --model BGCN --seed 3 --lr 0.001 --l2 1e-05 --layers 2 --replay 5 --root runs_replay --tag lr0.001_l21e-05_L2
+--protocol p1 --dataset MealRec+H --model BGCN --seed 4 --lr 0.001 --l2 1e-05 --layers 2 --replay 5 --root runs_replay --tag lr0.001_l21e-05_L2
+--protocol p1 --dataset MealRec+L --model CrossCBR --seed 0 --lr 0.003 --l2 0.0001 --layers 1 --replay 5 --root runs_replay --tag lr0.003_l20.0001_L1
+--protocol p1 --dataset MealRec+L --model CrossCBR --seed 1 --lr 0.003 --l2 0.0001 --layers 1 --replay 5 --root runs_replay --tag lr0.003_l20.0001_L1
+--protocol p1 --dataset MealRec+L --model CrossCBR --seed 2 --lr 0.003 --l2 0.0001 --layers 1 --replay 5 --root runs_replay --tag lr0.003_l20.0001_L1
+--protocol p1 --dataset MealRec+L --model CrossCBR --seed 3 --lr 0.003 --l2 0.0001 --layers 1 --replay 5 --root runs_replay --tag lr0.003_l20.0001_L1
+--protocol p1 --dataset MealRec+L --model CrossCBR --seed 4 --lr 0.003 --l2 0.0001 --layers 1 --replay 5 --root runs_replay --tag lr0.003_l20.0001_L1
+--protocol p1 --dataset MealRec+L --model MultiCBR --seed 0 --lr 0.001 --l2 0.0001 --layers 2 --replay 5 --root runs_replay --tag lr0.001_l20.0001_L2
+--protocol p1 --dataset MealRec+L --model MultiCBR --seed 1 --lr 0.001 --l2 0.0001 --layers 2 --replay 5 --root runs_replay --tag lr0.001_l20.0001_L2
+--protocol p1 --dataset MealRec+L --model MultiCBR --seed 2 --lr 0.001 --l2 0.0001 --layers 2 --replay 5 --root runs_replay --tag lr0.001_l20.0001_L2
+--protocol p1 --dataset MealRec+L --model MultiCBR --seed 3 --lr 0.001 --l2 0.0001 --layers 2 --replay 5 --root runs_replay --tag lr0.001_l20.0001_L2
+--protocol p1 --dataset MealRec+L --model MultiCBR --seed 4 --lr 0.001 --l2 0.0001 --layers 2 --replay 5 --root runs_replay --tag lr0.001_l20.0001_L2
+--protocol p1 --dataset MealRec+L --model BGCN --seed 0 --lr 0.003 --l2 0.001 --layers 1 --replay 5 --root runs_replay --tag lr0.003_l20.001_L1
+--protocol p1 --dataset MealRec+L --model BGCN --seed 1 --lr 0.003 --l2 0.001 --layers 1 --replay 5 --root runs_replay --tag lr0.003_l20.001_L1
+--protocol p1 --dataset MealRec+L --model BGCN --seed 2 --lr 0.003 --l2 0.001 --layers 1 --replay 5 --root runs_replay --tag lr0.003_l20.001_L1
+--protocol p1 --dataset MealRec+L --model BGCN --seed 3 --lr 0.003 --l2 0.001 --layers 1 --replay 5 --root runs_replay --tag lr0.003_l20.001_L1
+--protocol p1 --dataset MealRec+L --model BGCN --seed 4 --lr 0.003 --l2 0.001 --layers 1 --replay 5 --root runs_replay --tag lr0.003_l20.001_L1

@@ -1,0 +1,250 @@
+{
+  "MealRec+H": {
+    "p1": {
+      "models": {
+        "LightGCN": {
+          "setting": "lr0.003_l20.01_L1",
+          "tuned/recall@20/mean": 0.21161826240165332,
+          "tuned/recall@20/sd": 0.00449148783714871,
+          "tuned/ndcg@20/mean": 0.1234769602184467,
+          "n_seeds": 5,
+          "default/recall@20/mean": 0.1944982457322125,
+          "grid_spread_test_recall@20": [
+            0.0641174293993088,
+            0.21340151446223665
+          ]
+        },
+        "BGCN": {
+          "setting": "lr0.001_l21e-05_L2",
+          "tuned/recall@20/mean": 0.2440057938154252,
+          "tuned/recall@20/sd": 0.02028013847559611,
+          "tuned/ndcg@20/mean": 0.14746775838517306,
+          "n_seeds": 5,
+          "default/recall@20/mean": 0.22576211332249252,
+          "grid_spread_test_recall@20": [
+            0.20730893236261555,
+            0.2559768522159042
+          ]
+        },
+        "CrossCBR": {
+          "setting": "lr0.001_l21e-06_L1",
+          "tuned/recall@20/mean": 0.3634045937601017,
+          "tuned/recall@20/sd": 0.013134323951226776,
+          "tuned/ndcg@20/mean": 0.2532844511460852,
+          "n_seeds": 5,
+          "default/recall@20/mean": 0.30214850192607035,
+          "grid_spread_test_recall@20": [
+            0.280833572155368,
+            0.3707758903405442
+          ]
+        },
+        "MultiCBR": {
+          "setting": "lr0.0003_l20.0001_L2",
+          "tuned/recall@20/mean": 0.2870644305375415,
+          "tuned/recall@20/sd": 0.002070414516322827,
+          "tuned/ndcg@20/mean": 0.19324206604248179,
+          "n_seeds": 5,
+          "default/recall@20/mean": 0.25721933028791016,
+          "grid_spread_test_recall@20": [
+            0.24657923981305271,
+            0.28840817291374904
+          ]
+        }
+      },
+      "baselines": {
+        "MostPop": 0.042658696333879816,
+        "MealItemKNN": 0.09521589772412341,
+        "TrainCover": 0.4882337140274774,
+        "CoverHeuristic": 0.4484371850029412
+      },
+      "best_model": "CrossCBR",
+      "best_legit_baseline": "TrainCover",
+      "best_model_beats_best_legit_baseline": false
+    },
+    "p2": {
+      "models": {
+        "LightGCN": {
+          "setting": "lr0.003_l20.001_L2",
+          "tuned/recall@20/mean": 0.05943155260448909,
+          "tuned/recall@20/sd": 0.003201149643776047,
+          "tuned/ndcg@20/mean": 0.040085547135826204,
+          "n_seeds": 5,
+          "default/recall@20/mean": 0.059933971744725735,
+          "grid_spread_test_recall@20": [
+            0.04409673828582272,
+            0.06659004865644327
+          ]
+        },
+        "BGCN": {
+          "setting": "lr0.003_l21e-05_L2",
+          "tuned/recall@20/mean": 0.06752740259895383,
+          "tuned/recall@20/sd": 0.005918697335529474,
+          "tuned/ndcg@20/mean": 0.04370836372409107,
+          "n_seeds": 5,
+          "default/recall@20/mean": 0.06607558268284278,
+          "grid_spread_test_recall@20": [
+            0.059355274026708274,
+            0.06850782281898785
+          ]
+        },
+        "CrossCBR": {
+          "setting": "lr0.003_l20.0001_L1",
+          "tuned/recall@20/mean": 0.08709011092183097,
+          "tuned/recall@20/sd": 0.003125086345862308,
+          "tuned/ndcg@20/mean": 0.051003142319374625,
+          "n_seeds": 5,
+          "default/recall@20/mean": 0.0757729099164596,
+          "grid_spread_test_recall@20": [
+            0.06311757722938692,
+            0.08933276559725228
+          ]
+        },
+        "MultiCBR": {
+          "setting": "lr0.003_l21e-05_L2",
+          "tuned/recall@20/mean": 0.10087556525938028,
+          "tuned/recall@20/sd": 0.005869732349252006,
+          "tuned/ndcg@20/mean": 0.06523512791835165,
+          "n_seeds": 5,
+          "default/recall@20/mean": 0.10013195506136847,
+          "grid_spread_test_recall@20": [
+            0.0833381002188266,
+            0.10577992762835393
+          ]
+        }
+      },
+      "baselines": {
+        "MostPop": 0.036189682718477965,
+        "MealItemKNN": 0.03830178973663461,
+        "TrainCover": 0.11188756374052178,
+        "CoverHeuristic": 0.12757597158998846
+      },
+      "best_model": "MultiCBR",
+      "best_legit_baseline": "CoverHeuristic",
+      "best_model_beats_best_legit_baseline": false
+    }
+  },
+  "MealRec+L": {
+    "p1": {
+      "models": {
+        "LightGCN": {
+          "setting": "lr0.001_l20.01_L2",
+          "tuned/recall@20/mean": 0.059123439000960606,
+          "tuned/recall@20/sd": 0.00627956804693358,
+          "tuned/ndcg@20/mean": 0.029493859104274982,
+          "n_seeds": 5,
+          "default/recall@20/mean": 0.057337038561822415,
+          "grid_spread_test_recall@20": [
+            0.040694044188280494,
+            0.05350795937971731
+          ]
+        },
+        "BGCN": {
+          "setting": "lr0.003_l20.001_L1",
+          "tuned/recall@20/mean": 0.10683292691938226,
+          "tuned/recall@20/sd": 0.006340627785444011,
+          "tuned/ndcg@20/mean": 0.05320753174475455,
+          "n_seeds": 5,
+          "default/recall@20/mean": 0.09266362999792395,
+          "grid_spread_test_recall@20": [
+            0.07596233017702758,
+            0.1142405425186405
+          ]
+        },
+        "CrossCBR": {
+          "setting": "lr0.003_l20.0001_L1",
+          "tuned/recall@20/mean": 0.11309038224023815,
+          "tuned/recall@20/sd": 0.004619249565979721,
+          "tuned/ndcg@20/mean": 0.05910314665204093,
+          "n_seeds": 5,
+          "default/recall@20/mean": 0.09558304567670561,
+          "grid_spread_test_recall@20": [
+            0.07575173385692117,
+            0.11549563148986781
+          ]
+        },
+        "MultiCBR": {
+          "setting": "lr0.001_l20.0001_L2",
+          "tuned/recall@20/mean": 0.10748702466281716,
+          "tuned/recall@20/sd": 0.0066945227321443005,
+          "tuned/ndcg@20/mean": 0.053722843645550813,
+          "n_seeds": 5,
+          "default/recall@20/mean": 0.09368773157678056,
+          "grid_spread_test_recall@20": [
+            0.07809798270893371,
+            0.10902740391213014
+          ]
+        }
+      },
+      "baselines": {
+        "MostPop": 0.07986825854261013,
+        "MealItemKNN": 0.01516970861351265,
+        "TrainCover": 0.18416472256529895,
+        "CoverHeuristic": 0.10745620053977402
+      },
+      "best_model": "CrossCBR",
+      "best_legit_baseline": "TrainCover",
+      "best_model_beats_best_legit_baseline": false
+    },
+    "p2": {
+      "models": {
+        "LightGCN": {
+          "setting": "lr0.01_l20.01_L2",
+          "tuned/recall@20/mean": 0.022499607244291397,
+          "tuned/recall@20/sd": 0.002383428180025565,
+          "tuned/ndcg@20/mean": 0.012918776524504644,
+          "n_seeds": 5,
+          "default/recall@20/mean": 0.027526905733216596,
+          "grid_spread_test_recall@20": [
+            0.012433513422959333,
+            0.02747502424283427
+          ]
+        },
+        "BGCN": {
+          "setting": "lr0.0003_l21e-05_L1",
+          "tuned/recall@20/mean": 0.03465550539648482,
+          "tuned/recall@20/sd": 0.006161869932761456,
+          "tuned/ndcg@20/mean": 0.017093722026594295,
+          "n_seeds": 5,
+          "default/recall@20/mean": 0.029145185361739896,
+          "grid_spread_test_recall@20": [
+            0.041239022089658774,
+            0.05354458391340345
+          ]
+        },
+        "CrossCBR": {
+          "setting": "lr0.01_l20.0001_L1",
+          "tuned/recall@20/mean": 0.05443867083421976,
+          "tuned/recall@20/sd": 0.004191660672674858,
+          "tuned/ndcg@20/mean": 0.026791942885980018,
+          "n_seeds": 5,
+          "default/recall@20/mean": 0.040238065950467,
+          "grid_spread_test_recall@20": [
+            0.03399296394019349,
+            0.06581730953074305
+          ]
+        },
+        "MultiCBR": {
+          "setting": "lr0.0003_l20.0001_L2",
+          "tuned/recall@20/mean": 0.06820024251938901,
+          "tuned/recall@20/sd": 0.0031281745713457503,
+          "tuned/ndcg@20/mean": 0.037678164641718546,
+          "n_seeds": 5,
+          "default/recall@20/mean": 0.058050567061627256,
+          "grid_spread_test_recall@20": [
+            0.041886543535620054,
+            0.07360438593947828
+          ]
+        }
+      },
+      "baselines": {
+        "MostPop": 0.04849525765248255,
+        "MealItemKNN": 0.009080914687774846,
+        "TrainCover": 0.06324915190350545,
+        "CoverHeuristic": 0.21584361841617777
+      },
+      "best_model": "MultiCBR",
+      "best_legit_baseline": "CoverHeuristic",
+      "best_model_beats_best_legit_baseline": false
+    }
+  }
+}

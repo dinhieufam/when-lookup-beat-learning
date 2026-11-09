@@ -1,0 +1,50 @@
+# Reviewer checks: CoHeat on two more meal-split seeds
+--protocol cold_s1 --dataset MealRec+H --model CoHeat --seed 0 --layers 1 --min-epochs 100
+--protocol cold_s1 --dataset MealRec+H --model CoHeat --seed 1 --layers 1 --min-epochs 100
+--protocol cold_s1 --dataset MealRec+H --model CoHeat --seed 2 --layers 1 --min-epochs 100
+--protocol cold_s1 --dataset MealRec+L --model CoHeat --seed 0 --layers 1 --min-epochs 100
+--protocol cold_s1 --dataset MealRec+L --model CoHeat --seed 1 --layers 1 --min-epochs 100
+--protocol cold_s1 --dataset MealRec+L --model CoHeat --seed 2 --layers 1 --min-epochs 100
+--protocol cold_p1_s1 --dataset MealRec+H --model CoHeat --seed 0 --layers 1 --min-epochs 100
+--protocol cold_p1_s1 --dataset MealRec+H --model CoHeat --seed 1 --layers 1 --min-epochs 100
+--protocol cold_p1_s1 --dataset MealRec+H --model CoHeat --seed 2 --layers 1 --min-epochs 100
+--protocol cold_p1_s1 --dataset MealRec+L --model CoHeat --seed 0 --layers 1 --min-epochs 100
+--protocol cold_p1_s1 --dataset MealRec+L --model CoHeat --seed 1 --layers 1 --min-epochs 100
+--protocol cold_p1_s1 --dataset MealRec+L --model CoHeat --seed 2 --layers 1 --min-epochs 100
+--protocol cold_s2 --dataset MealRec+H --model CoHeat --seed 0 --layers 1 --min-epochs 100
+--protocol cold_s2 --dataset MealRec+H --model CoHeat --seed 1 --layers 1 --min-epochs 100
+--protocol cold_s2 --dataset MealRec+H --model CoHeat --seed 2 --layers 1 --min-epochs 100
+--protocol cold_s2 --dataset MealRec+L --model CoHeat --seed 0 --layers 1 --min-epochs 100
+--protocol cold_s2 --dataset MealRec+L --model CoHeat --seed 1 --layers 1 --min-epochs 100
+--protocol cold_s2 --dataset MealRec+L --model CoHeat --seed 2 --layers 1 --min-epochs 100
+--protocol cold_p1_s2 --dataset MealRec+H --model CoHeat --seed 0 --layers 1 --min-epochs 100
+--protocol cold_p1_s2 --dataset MealRec+H --model CoHeat --seed 1 --layers 1 --min-epochs 100
+--protocol cold_p1_s2 --dataset MealRec+H --model CoHeat --seed 2 --layers 1 --min-epochs 100
+--protocol cold_p1_s2 --dataset MealRec+L --model CoHeat --seed 0 --layers 1 --min-epochs 100
+--protocol cold_p1_s2 --dataset MealRec+L --model CoHeat --seed 1 --layers 1 --min-epochs 100
+--protocol cold_p1_s2 --dataset MealRec+L --model CoHeat --seed 2 --layers 1 --min-epochs 100
+# Reviewer checks: P2 cutoff at the 70th / 90th percentile (default settings)
+--protocol p2_q70 --dataset MealRec+H --model MultiCBR --seed 0
+--protocol p2_q70 --dataset MealRec+H --model MultiCBR --seed 1
+--protocol p2_q70 --dataset MealRec+H --model MultiCBR --seed 2
+--protocol p2_q70 --dataset MealRec+H --model CrossCBR --seed 0
+--protocol p2_q70 --dataset MealRec+H --model CrossCBR --seed 1
+--protocol p2_q70 --dataset MealRec+H --model CrossCBR --seed 2
+--protocol p2_q70 --dataset MealRec+L --model MultiCBR --seed 0
+--protocol p2_q70 --dataset MealRec+L --model MultiCBR --seed 1
+--protocol p2_q70 --dataset MealRec+L --model MultiCBR --seed 2
+--protocol p2_q70 --dataset MealRec+L --model CrossCBR --seed 0
+--protocol p2_q70 --dataset MealRec+L --model CrossCBR --seed 1
+--protocol p2_q70 --dataset MealRec+L --model CrossCBR --seed 2
+--protocol p2_q90 --dataset MealRec+H --model MultiCBR --seed 0
+--protocol p2_q90 --dataset MealRec+H --model MultiCBR --seed 1
+--protocol p2_q90 --dataset MealRec+H --model MultiCBR --seed 2
+--protocol p2_q90 --dataset MealRec+H --model CrossCBR --seed 0
+--protocol p2_q90 --dataset MealRec+H --model CrossCBR --seed 1
+--protocol p2_q90 --dataset MealRec+H --model CrossCBR --seed 2
+--protocol p2_q90 --dataset MealRec+L --model MultiCBR --seed 0
+--protocol p2_q90 --dataset MealRec+L --model MultiCBR --seed 1
+--protocol p2_q90 --dataset MealRec+L --model MultiCBR --seed 2
+--protocol p2_q90 --dataset MealRec+L --model CrossCBR --seed 0
+--protocol p2_q90 --dataset MealRec+L --model CrossCBR --seed 1
+--protocol p2_q90 --dataset MealRec+L --model CrossCBR --seed 2

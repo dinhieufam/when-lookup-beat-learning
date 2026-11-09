@@ -1,0 +1,326 @@
+{
+  "B": 2000,
+  "seed": 0,
+  "datasets": {
+    "MealRec+H": {
+      "models": {
+        "CrossCBR": {
+          "replay": 0.32883524894714355,
+          "normal": 0.36340460181236267,
+          "replay_minus_normal": {
+            "diff": -0.034569352865219116,
+            "ci95": [
+              -0.05776648074388504,
+              -0.014799001067876839
+            ],
+            "excludes_zero": true,
+            "seeds": [
+              5,
+              5
+            ],
+            "n_users": 1114
+          }
+        },
+        "MultiCBR": {
+          "replay": 0.28464189171791077,
+          "normal": 0.28706443309783936,
+          "replay_minus_normal": {
+            "diff": -0.002422541379928589,
+            "ci95": [
+              -0.011486952751874923,
+              0.005919351428747176
+            ],
+            "excludes_zero": false,
+            "seeds": [
+              5,
+              5
+            ],
+            "n_users": 1114
+          }
+        },
+        "BGCN": {
+          "replay": 0.24703581631183624,
+          "normal": 0.24400579929351807,
+          "replay_minus_normal": {
+            "diff": 0.0030300170183181763,
+            "ci95": [
+              -0.01520971953868866,
+              0.023157382756471633
+            ],
+            "excludes_zero": false,
+            "seeds": [
+              5,
+              5
+            ],
+            "n_users": 1114
+          }
+        }
+      },
+      "best_replay": "CrossCBR",
+      "BundleComp_minus_best_replay": {
+        "diff": 0.17383216805164525,
+        "ci95": [
+          0.14801364506487388,
+          0.2001312732541985
+        ],
+        "excludes_zero": true,
+        "seeds": [
+          5,
+          5
+        ],
+        "n_users": 1114
+      },
+      "CompMeal_minus_best_replay": {
+        "diff": 0.2084610877625781,
+        "ci95": [
+          0.184434936338793,
+          0.23413160152619658
+        ],
+        "excludes_zero": true,
+        "seeds": [
+          5,
+          5
+        ],
+        "n_users": 1114
+      }
+    },
+    "MealRec+L": {
+      "models": {
+        "CrossCBR": {
+          "replay": 0.1137392669916153,
+          "normal": 0.113090381026268,
+          "replay_minus_normal": {
+            "diff": 0.00064888596534729,
+            "ci95": [
+              -0.010200780071318149,
+              0.011297133937478054
+            ],
+            "excludes_zero": false,
+            "seeds": [
+              5,
+              5
+            ],
+            "n_users": 694
+          }
+        },
+        "MultiCBR": {
+          "replay": 0.09671353548765182,
+          "normal": 0.1074870228767395,
+          "replay_minus_normal": {
+            "diff": -0.010773487389087677,
+            "ci95": [
+              -0.02319647278636694,
+              0.0005423201248049722
+            ],
+            "excludes_zero": false,
+            "seeds": [
+              5,
+              5
+            ],
+            "n_users": 694
+          }
+        },
+        "BGCN": {
+          "replay": 0.10010761022567749,
+          "normal": 0.10683292895555496,
+          "replay_minus_normal": {
+            "diff": -0.006725318729877472,
+            "ci95": [
+              -0.018453478626906872,
+              0.004505235515534862
+            ],
+            "excludes_zero": false,
+            "seeds": [
+              5,
+              5
+            ],
+            "n_users": 694
+          }
+        }
+      },
+      "best_replay": "CrossCBR",
+      "BundleComp_minus_best_replay": {
+        "diff": 0.08182909676118652,
+        "ci95": [
+          0.06255173270798901,
+          0.10286046225733445
+        ],
+        "excludes_zero": true,
+        "seeds": [
+          5,
+          5
+        ],
+        "n_users": 694
+      },
+      "CompMeal_minus_best_replay": {
+        "diff": 0.07220876832241424,
+        "ci95": [
+          0.05246254216177559,
+          0.09272389297852938
+        ],
+        "excludes_zero": true,
+        "seeds": [
+          5,
+          5
+        ],
+        "n_users": 694
+      }
+    },
+    "Youshu": {
+      "models": {
+        "CrossCBR": {
+          "replay": 0.2739807963371277,
+          "normal": 0.2740047872066498,
+          "replay_minus_normal": {
+            "diff": -2.3990869522094727e-05,
+            "ci95": [
+              -0.00548812672495842,
+              0.005153554677963256
+            ],
+            "excludes_zero": false,
+            "seeds": [
+              5,
+              5
+            ],
+            "n_users": 2959
+          }
+        },
+        "MultiCBR": {
+          "replay": 0.2808000445365906,
+          "normal": 0.2800569236278534,
+          "replay_minus_normal": {
+            "diff": 0.0007431209087371826,
+            "ci95": [
+              -0.0033088698983192444,
+              0.0044685460627078965
+            ],
+            "excludes_zero": false,
+            "seeds": [
+              5,
+              5
+            ],
+            "n_users": 2959
+          }
+        }
+      },
+      "best_replay": "MultiCBR",
+      "BundleComp_minus_best_replay": {
+        "diff": 0.0012560419318883853,
+        "ci95": [
+          -0.008058292073758196,
+          0.010564620008128044
+        ],
+        "excludes_zero": false,
+        "seeds": [
+          5,
+          5
+        ],
+        "n_users": 2959
+      }
+    },
+    "NetEase": {
+      "models": {
+        "CrossCBR": {
+          "replay": 0.08375218510627747,
+          "normal": 0.08297981321811676,
+          "replay_minus_normal": {
+            "diff": 0.0007723718881607056,
+            "ci95": [
+              -0.0007197843864560127,
+              0.0022060865536332117
+            ],
+            "excludes_zero": false,
+            "seeds": [
+              5,
+              5
+            ],
+            "n_users": 18514
+          }
+        },
+        "MultiCBR": {
+          "replay": 0.08199195563793182,
+          "normal": 0.08648055046796799,
+          "replay_minus_normal": {
+            "diff": -0.004488594830036163,
+            "ci95": [
+              -0.006017791107296944,
+              -0.002946832776069641
+            ],
+            "excludes_zero": true,
+            "seeds": [
+              5,
+              5
+            ],
+            "n_users": 18514
+          }
+        }
+      },
+      "best_replay": "CrossCBR",
+      "BundleComp_minus_best_replay": {
+        "diff": 0.005135992853384591,
+        "ci95": [
+          0.0021724783527094617,
+          0.008009131272430239
+        ],
+        "excludes_zero": true,
+        "seeds": [
+          5,
+          5
+        ],
+        "n_users": 18514
+      }
+    },
+    "iFashion": {
+      "models": {
+        "CrossCBR": {
+          "replay": 0.09961658716201782,
+          "normal": 0.09671566635370255,
+          "replay_minus_normal": {
+            "diff": 0.002900920808315277,
+            "ci95": [
+              0.002242606692016125,
+              0.003537075221538544
+            ],
+            "excludes_zero": true,
+            "seeds": [
+              5,
+              5
+            ],
+            "n_users": 53897
+          }
+        },
+        "MultiCBR": {
+          "replay": 0.10191933810710907,
+          "normal": 0.10143784433603287,
+          "replay_minus_normal": {
+            "diff": 0.0004814937710762024,
+            "ci95": [
+              -8.251555263996124e-05,
+              0.0010830588638782496
+            ],
+            "excludes_zero": false,
+            "seeds": [
+              5,
+              5
+            ],
+            "n_users": 53897
+          }
+        }
+      },
+      "best_replay": "MultiCBR",
+      "BundleComp_minus_best_replay": {
+        "diff": -0.02149382315633215,
+        "ci95": [
+          -0.022605970779629083,
+          -0.020324736400003582
+        ],
+        "excludes_zero": true,
+        "seeds": [
+          5,
+          5
+        ],
+        "n_users": 53897
+      }
+    }
+  }
+}

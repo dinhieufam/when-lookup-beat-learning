@@ -1,0 +1,80 @@
+{
+  "MealRec+H/p2": {
+    "CompMeal-N": 0.17700769073790495,
+    "GBDT": 0.1662772178188726,
+    "lookup": "CoverHeuristic",
+    "lookup_r20": 0.12757597158998846,
+    "n_users": 418,
+    "p_vs_GBDT": 0.302120692974026,
+    "p_vs_lookup": 0.003890998202519112,
+    "p_GBDT_vs_lookup": 0.0042429540126557065,
+    "p_vs_GBDT_holm": 0.7372349323206202,
+    "p_vs_lookup_holm": 0.011672994607557335,
+    "p_GBDT_vs_lookup_holm": 0.008485908025311413
+  },
+  "MealRec+H/p1": {
+    "CompMeal-N": 0.5374562662607283,
+    "GBDT": 0.5372963367097218,
+    "lookup": "TrainCover",
+    "lookup_r20": 0.4882337140274774,
+    "n_users": 1114,
+    "p_vs_GBDT": 0.6926683494438193,
+    "p_vs_lookup": 2.268651112035434e-12,
+    "p_GBDT_vs_lookup": 5.519301745419136e-16,
+    "p_vs_GBDT_holm": 0.7372349323206202,
+    "p_vs_lookup_holm": 9.074604448141737e-12,
+    "p_GBDT_vs_lookup_holm": 2.2077206981676546e-15
+  },
+  "MealRec+H/cold_p1": {
+    "CompMeal-N": 0.4455090108812055,
+    "GBDT": 0.46949502493927303,
+    "lookup": "TrainCover",
+    "lookup_r20": 0.3266505384413141,
+    "n_users": 1386,
+    "p_vs_GBDT": 1.3164101085453544e-09,
+    "p_vs_lookup": 5.95321524736027e-73,
+    "p_GBDT_vs_lookup": 1.862030882905857e-108,
+    "p_vs_GBDT_holm": 7.898460651272125e-09,
+    "p_vs_lookup_holm": 3.5719291484161624e-72,
+    "p_GBDT_vs_lookup_holm": 1.1172185297435143e-107
+  },
+  "MealRec+L/p2": {
+    "CompMeal-N": 0.2476584984849768,
+    "GBDT": 0.2677437681524355,
+    "lookup": "CoverHeuristic",
+    "lookup_r20": 0.21584361841617777,
+    "n_users": 379,
+    "p_vs_GBDT": 0.015412752491510204,
+    "p_vs_lookup": 0.010304561995428065,
+    "p_GBDT_vs_lookup": 4.081282780873252e-06,
+    "p_vs_GBDT_holm": 0.07706376245755102,
+    "p_vs_lookup_holm": 0.02060912399085613,
+    "p_GBDT_vs_lookup_holm": 1.2243848342619756e-05
+  },
+  "MealRec+L/p1": {
+    "CompMeal-N": 0.1969881119520889,
+    "GBDT": 0.18594803531402954,
+    "lookup": "TrainCover",
+    "lookup_r20": 0.18416472256529895,
+    "n_users": 694,
+    "p_vs_GBDT": 0.24574497744020674,
+    "p_vs_lookup": 0.06707437712096918,
+    "p_GBDT_vs_lookup": 0.4297707421496042,
+    "p_vs_GBDT_holm": 0.7372349323206202,
+    "p_vs_lookup_holm": 0.06707437712096918,
+    "p_GBDT_vs_lookup_holm": 0.4297707421496042
+  },
+  "MealRec+L/cold_p1": {
+    "CompMeal-N": 0.17512094287305355,
+    "GBDT": 0.15968805341466297,
+    "lookup": "TrainCover",
+    "lookup_r20": 0.10355811975183457,
+    "n_users": 1066,
+    "p_vs_GBDT": 0.02176820434006117,
+    "p_vs_lookup": 5.546032782895141e-29,
+    "p_GBDT_vs_lookup": 5.062678327679858e-32,
+    "p_vs_GBDT_holm": 0.08707281736024468,
+    "p_vs_lookup_holm": 2.7730163914475704e-28,
+    "p_GBDT_vs_lookup_holm": 2.531339163839929e-31
+  }
+}

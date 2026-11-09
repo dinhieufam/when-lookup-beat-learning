@@ -1,0 +1,648 @@
+{
+  "canary": {
+    "MealRec+H": {
+      "orig": {
+        "MostPop": {
+          "recall@20": 0.042658696333879816,
+          "ndcg@20": 0.020112488043412344,
+          "recall@40": 0.07590193547086681,
+          "ndcg@40": 0.02884114722090816,
+          "recall@80": 0.12322359100768081,
+          "ndcg@80": 0.03986933431202482
+        },
+        "MealItemKNN": {
+          "recall@20": 0.09521589772412341,
+          "ndcg@20": 0.05235889318407817,
+          "recall@40": 0.13369570120563148,
+          "ndcg@40": 0.06186457304584078,
+          "recall@80": 0.19688609615190056,
+          "ndcg@80": 0.07523043371911421
+        },
+        "TrainCover": {
+          "recall@20": 0.4882337140274774,
+          "ndcg@20": 0.41240860995494405,
+          "recall@40": 0.575754269844569,
+          "ndcg@40": 0.43426443031428963,
+          "recall@80": 0.6638700947667258,
+          "ndcg@80": 0.4533948752394466
+        },
+        "CoverHeuristic": {
+          "recall@20": 0.9656166886166463,
+          "ndcg@20": 0.8191645205541327,
+          "recall@40": 0.9878375807670972,
+          "ndcg@40": 0.8286946019923359,
+          "recall@80": 0.9963268101431968,
+          "ndcg@80": 0.8328346650632145
+        },
+        "pairs": {
+          "train": 37413,
+          "tune": 4677,
+          "test": 4677
+        },
+        "user_course_edges": 151148,
+        "cutoffs": null,
+        "canary_minus_legit_ceiling_recall@20": 0.4773829745891689
+      },
+      "p1": {
+        "MostPop": {
+          "recall@20": 0.042658696333879816,
+          "ndcg@20": 0.020112488043412344,
+          "recall@40": 0.07590193547086681,
+          "ndcg@40": 0.02884114722090816,
+          "recall@80": 0.12322359100768081,
+          "ndcg@80": 0.03986933431202482
+        },
+        "MealItemKNN": {
+          "recall@20": 0.09521589772412341,
+          "ndcg@20": 0.05235889318407817,
+          "recall@40": 0.13369570120563148,
+          "ndcg@40": 0.06186457304584078,
+          "recall@80": 0.19688609615190056,
+          "ndcg@80": 0.07523043371911421
+        },
+        "TrainCover": {
+          "recall@20": 0.4882337140274774,
+          "ndcg@20": 0.41240860995494405,
+          "recall@40": 0.575754269844569,
+          "ndcg@40": 0.43426443031428963,
+          "recall@80": 0.6638700947667258,
+          "ndcg@80": 0.4533948752394466
+        },
+        "CoverHeuristic": {
+          "recall@20": 0.4484371850029412,
+          "ndcg@20": 0.39582707316277377,
+          "recall@40": 0.5141294942610861,
+          "ndcg@40": 0.41277999320217135,
+          "recall@80": 0.5998511544012863,
+          "ndcg@80": 0.43064411504928685
+        },
+        "pairs": {
+          "train": 37413,
+          "tune": 4677,
+          "test": 4677
+        },
+        "user_course_edges": 146947,
+        "cutoffs": null,
+        "canary_minus_legit_ceiling_recall@20": -0.039796529024536176
+      },
+      "p2": {
+        "MostPop": {
+          "recall@20": 0.036189682718477965,
+          "ndcg@20": 0.032556340011922744,
+          "recall@40": 0.05651109304594271,
+          "ndcg@40": 0.038110250238526114,
+          "recall@80": 0.10066428884052855,
+          "ndcg@80": 0.04918883485496135
+        },
+        "MealItemKNN": {
+          "recall@20": 0.03830178973663461,
+          "ndcg@20": 0.024573513523870678,
+          "recall@40": 0.05208952106365847,
+          "ndcg@40": 0.02878850308853728,
+          "recall@80": 0.08681220581103775,
+          "ndcg@80": 0.036719777489557424
+        },
+        "TrainCover": {
+          "recall@20": 0.11188756374052178,
+          "ndcg@20": 0.07487073340952902,
+          "recall@40": 0.18340438977032403,
+          "ndcg@40": 0.09306595033699191,
+          "recall@80": 0.27034157768269074,
+          "ndcg@80": 0.11410100000671136
+        },
+        "CoverHeuristic": {
+          "recall@20": 0.12757597158998846,
+          "ndcg@20": 0.08932928300339842,
+          "recall@40": 0.24371154148567495,
+          "ndcg@40": 0.12066650072367796,
+          "recall@80": 0.3886964944874478,
+          "ndcg@80": 0.15669962475030316
+        },
+        "pairs": {
+          "train": 37419,
+          "tune": 4674,
+          "test": 4674
+        },
+        "user_course_edges": 134138,
+        "cutoffs": {
+          "train_until": "2014-01-01 18:52:29.500000",
+          "tune_until": "2015-07-15 01:26:18.418500"
+        },
+        "canary_minus_legit_ceiling_recall@20": 0.01568840784946668
+      }
+    },
+    "MealRec+L": {
+      "orig": {
+        "MostPop": {
+          "recall@20": 0.07986825854261013,
+          "ndcg@20": 0.03208842467884022,
+          "recall@40": 0.11885721147248524,
+          "ndcg@40": 0.04063088107695508,
+          "recall@80": 0.16487351905219338,
+          "ndcg@80": 0.049305341111735616
+        },
+        "MealItemKNN": {
+          "recall@20": 0.01516970861351265,
+          "ndcg@20": 0.006415162785747538,
+          "recall@40": 0.025776496958053154,
+          "ndcg@40": 0.008676956133401187,
+          "recall@80": 0.04498879282740954,
+          "ndcg@80": 0.012122291280730764
+        },
+        "TrainCover": {
+          "recall@20": 0.18416472256529895,
+          "ndcg@20": 0.1039642583618513,
+          "recall@40": 0.23455173948689795,
+          "ndcg@40": 0.11538229295816262,
+          "recall@80": 0.3127652246888558,
+          "ndcg@80": 0.13019275708535819
+        },
+        "CoverHeuristic": {
+          "recall@20": 0.9376326563286218,
+          "ndcg@20": 0.7194685085390532,
+          "recall@40": 0.9654384520378757,
+          "ndcg@40": 0.7281403986562661,
+          "recall@80": 0.987441413053805,
+          "ndcg@80": 0.7347867709236917
+        },
+        "pairs": {
+          "train": 9445,
+          "tune": 1181,
+          "test": 1181
+        },
+        "user_course_edges": 181087,
+        "cutoffs": null,
+        "canary_minus_legit_ceiling_recall@20": 0.7534679337633229
+      },
+      "p1": {
+        "MostPop": {
+          "recall@20": 0.07986825854261013,
+          "ndcg@20": 0.03208842467884022,
+          "recall@40": 0.11885721147248524,
+          "ndcg@40": 0.04063088107695508,
+          "recall@80": 0.16487351905219338,
+          "ndcg@80": 0.049305341111735616
+        },
+        "MealItemKNN": {
+          "recall@20": 0.01516970861351265,
+          "ndcg@20": 0.006415162785747538,
+          "recall@40": 0.025776496958053154,
+          "ndcg@40": 0.008676956133401187,
+          "recall@80": 0.04498879282740954,
+          "ndcg@80": 0.012122291280730764
+        },
+        "TrainCover": {
+          "recall@20": 0.18416472256529895,
+          "ndcg@20": 0.1039642583618513,
+          "recall@40": 0.23455173948689795,
+          "ndcg@40": 0.11538229295816262,
+          "recall@80": 0.3127652246888558,
+          "ndcg@80": 0.13019275708535819
+        },
+        "CoverHeuristic": {
+          "recall@20": 0.10745620053977402,
+          "ndcg@20": 0.0574836000207969,
+          "recall@40": 0.13931879039948206,
+          "ndcg@40": 0.06434531437825561,
+          "recall@80": 0.185162416034174,
+          "ndcg@80": 0.07318291077065098
+        },
+        "pairs": {
+          "train": 9445,
+          "tune": 1181,
+          "test": 1181
+        },
+        "user_course_edges": 176409,
+        "cutoffs": null,
+        "canary_minus_legit_ceiling_recall@20": -0.07670852202552493
+      },
+      "p2": {
+        "MostPop": {
+          "recall@20": 0.04849525765248255,
+          "ndcg@20": 0.02504785034071981,
+          "recall@40": 0.09283709289141541,
+          "ndcg@40": 0.03605212820598081,
+          "recall@80": 0.13574135222047684,
+          "ndcg@80": 0.045335574041231445
+        },
+        "MealItemKNN": {
+          "recall@20": 0.009080914687774846,
+          "ndcg@20": 0.0028451535454773547,
+          "recall@40": 0.016539520477228405,
+          "ndcg@40": 0.00485826705127809,
+          "recall@80": 0.030423657448436617,
+          "ndcg@80": 0.008239999732661282
+        },
+        "TrainCover": {
+          "recall@20": 0.06324915190350545,
+          "ndcg@20": 0.028788477650242856,
+          "recall@40": 0.10963076794211359,
+          "ndcg@40": 0.04092404562492321,
+          "recall@80": 0.1615431226158068,
+          "ndcg@80": 0.05222117358685505
+        },
+        "CoverHeuristic": {
+          "recall@20": 0.21584361841617777,
+          "ndcg@20": 0.10270916813029186,
+          "recall@40": 0.35307361900175804,
+          "ndcg@40": 0.1355484151611852,
+          "recall@80": 0.4865939779605774,
+          "ndcg@80": 0.1635954160458962
+        },
+        "pairs": {
+          "train": 9445,
+          "tune": 1181,
+          "test": 1181
+        },
+        "user_course_edges": 156535,
+        "cutoffs": {
+          "train_until": "2013-09-03 17:52:53.785400",
+          "tune_until": "2015-04-07 11:53:47.833500"
+        },
+        "canary_minus_legit_ceiling_recall@20": 0.15259446651267233
+      }
+    }
+  },
+  "leaderboard": {
+    "MealRec+H": {
+      "orig": {
+        "models": {
+          "BGCN": {
+            "tune_sel/recall@20/mean": 0.22475036933416548,
+            "tune_sel/ndcg@20/mean": 0.1379605350835465,
+            "tune_sel/recall@80/mean": 0.3934793394501329,
+            "tune_sel/recall@20/sd": 0.007082101353958369,
+            "tune_sel/ndcg@20/sd": 0.003949175724925025,
+            "tune_sel/recall@80/sd": 0.0037705796788930035,
+            "n_seeds": 5
+          },
+          "CrossCBR": {
+            "tune_sel/recall@20/mean": 0.3413897578742998,
+            "tune_sel/ndcg@20/mean": 0.2175136997059668,
+            "tune_sel/recall@80/mean": 0.5494620820484661,
+            "tune_sel/recall@20/sd": 0.005177451494552126,
+            "tune_sel/ndcg@20/sd": 0.003418470247798995,
+            "tune_sel/recall@80/sd": 0.0050599348739817284,
+            "n_seeds": 5
+          },
+          "HyperMBR": {
+            "tune_sel/recall@20/mean": 0.14595192164379744,
+            "tune_sel/ndcg@20/mean": 0.08737863370403494,
+            "tune_sel/recall@80/mean": 0.27917023648980804,
+            "tune_sel/recall@20/sd": 0.004220341213652793,
+            "tune_sel/ndcg@20/sd": 0.002487575869268611,
+            "tune_sel/recall@80/sd": 0.0036246411404526674,
+            "n_seeds": 5
+          },
+          "LightGCN": {
+            "tune_sel/recall@20/mean": 0.1944982457322125,
+            "tune_sel/ndcg@20/mean": 0.11230408362150077,
+            "tune_sel/recall@80/mean": 0.3516192232856998,
+            "tune_sel/recall@20/sd": 0.005510099709925464,
+            "tune_sel/ndcg@20/sd": 0.0032848748797007356,
+            "tune_sel/recall@80/sd": 0.005599064992177493,
+            "n_seeds": 5
+          },
+          "MultiCBR": {
+            "tune_sel/recall@20/mean": 0.27626897472055484,
+            "tune_sel/ndcg@20/mean": 0.17273419874562823,
+            "tune_sel/recall@80/mean": 0.46783872467847437,
+            "tune_sel/recall@20/sd": 0.004968087185232734,
+            "tune_sel/ndcg@20/sd": 0.004749303261626858,
+            "tune_sel/recall@80/sd": 0.005800611450788868,
+            "n_seeds": 5
+          }
+        },
+        "ranking": [
+          "CrossCBR",
+          "MultiCBR",
+          "BGCN",
+          "LightGCN",
+          "HyperMBR"
+        ],
+        "course_aware_minus_lightgcn_recall@20": {
+          "BGCN": 0.03025212360195298,
+          "CrossCBR": 0.14689151214208732,
+          "MultiCBR": 0.08177072898834234,
+          "HyperMBR": -0.048546324088415055
+        }
+      },
+      "p1": {
+        "models": {
+          "BGCN": {
+            "tune_sel/recall@20/mean": 0.22576211332249252,
+            "tune_sel/ndcg@20/mean": 0.1385434972925768,
+            "tune_sel/recall@80/mean": 0.39381548487985035,
+            "tune_sel/recall@20/sd": 0.006577705111939074,
+            "tune_sel/ndcg@20/sd": 0.00375932147700125,
+            "tune_sel/recall@80/sd": 0.004683927812696495,
+            "n_seeds": 5
+          },
+          "CrossCBR": {
+            "tune_sel/recall@20/mean": 0.30214850192607035,
+            "tune_sel/ndcg@20/mean": 0.19861243949180332,
+            "tune_sel/recall@80/mean": 0.5042095065994714,
+            "tune_sel/recall@20/sd": 0.005444393189591921,
+            "tune_sel/ndcg@20/sd": 0.0021562461456000057,
+            "tune_sel/recall@80/sd": 0.0019020503569552722,
+            "n_seeds": 5
+          },
+          "HyperMBR": {
+            "tune_sel/recall@20/mean": 0.14287320538321385,
+            "tune_sel/ndcg@20/mean": 0.0854937394935472,
+            "tune_sel/recall@80/mean": 0.2753232688326316,
+            "tune_sel/recall@20/sd": 0.0066064507842829474,
+            "tune_sel/ndcg@20/sd": 0.0059579604842711605,
+            "tune_sel/recall@80/sd": 0.009952796541872143,
+            "n_seeds": 5
+          },
+          "LightGCN": {
+            "tune_sel/recall@20/mean": 0.1944982457322125,
+            "tune_sel/ndcg@20/mean": 0.11230408362150077,
+            "tune_sel/recall@80/mean": 0.3516192232856998,
+            "tune_sel/recall@20/sd": 0.005510099709925464,
+            "tune_sel/ndcg@20/sd": 0.0032848748797007356,
+            "tune_sel/recall@80/sd": 0.005599064992177493,
+            "n_seeds": 5
+          },
+          "MultiCBR": {
+            "tune_sel/recall@20/mean": 0.25721933028791016,
+            "tune_sel/ndcg@20/mean": 0.16383213963646864,
+            "tune_sel/recall@80/mean": 0.44103631335944193,
+            "tune_sel/recall@20/sd": 0.007188570843255916,
+            "tune_sel/ndcg@20/sd": 0.0049036782458327195,
+            "tune_sel/recall@80/sd": 0.006787409778251106,
+            "n_seeds": 5
+          }
+        },
+        "ranking": [
+          "CrossCBR",
+          "MultiCBR",
+          "BGCN",
+          "LightGCN",
+          "HyperMBR"
+        ],
+        "kendall_tau_vs_orig": 0.9999999999999999,
+        "course_aware_minus_lightgcn_recall@20": {
+          "BGCN": 0.03126386759028002,
+          "CrossCBR": 0.10765025619385785,
+          "MultiCBR": 0.06272108455569766,
+          "HyperMBR": -0.051625040348998646
+        }
+      },
+      "p2": {
+        "models": {
+          "BGCN": {
+            "tune_sel/recall@20/mean": 0.06607558268284278,
+            "tune_sel/ndcg@20/mean": 0.04269382833467374,
+            "tune_sel/recall@80/mean": 0.1717234882579324,
+            "tune_sel/recall@20/sd": 0.00510951457919048,
+            "tune_sel/ndcg@20/sd": 0.0028452050777246266,
+            "tune_sel/recall@80/sd": 0.006326796116045311,
+            "n_seeds": 5
+          },
+          "CrossCBR": {
+            "tune_sel/recall@20/mean": 0.0757729099164596,
+            "tune_sel/ndcg@20/mean": 0.043218054309601975,
+            "tune_sel/recall@80/mean": 0.20264899429877564,
+            "tune_sel/recall@20/sd": 0.00571668783363175,
+            "tune_sel/ndcg@20/sd": 0.003620977450291662,
+            "tune_sel/recall@80/sd": 0.005374979151670831,
+            "n_seeds": 5
+          },
+          "HyperMBR": {
+            "tune_sel/recall@20/mean": 0.05479162968973774,
+            "tune_sel/ndcg@20/mean": 0.03568793116149687,
+            "tune_sel/recall@80/mean": 0.12824428602800106,
+            "tune_sel/recall@20/sd": 0.007342197569972837,
+            "tune_sel/ndcg@20/sd": 0.0019322018506445198,
+            "tune_sel/recall@80/sd": 0.005549863719259797,
+            "n_seeds": 5
+          },
+          "LightGCN": {
+            "tune_sel/recall@20/mean": 0.059933971744725735,
+            "tune_sel/ndcg@20/mean": 0.038276451364240995,
+            "tune_sel/recall@80/mean": 0.1528249030413778,
+            "tune_sel/recall@20/sd": 0.005694747094919603,
+            "tune_sel/ndcg@20/sd": 0.002951006899000702,
+            "tune_sel/recall@80/sd": 0.007061709675068703,
+            "n_seeds": 5
+          },
+          "MultiCBR": {
+            "tune_sel/recall@20/mean": 0.10013195506136847,
+            "tune_sel/ndcg@20/mean": 0.0658760938071724,
+            "tune_sel/recall@80/mean": 0.2317262262693474,
+            "tune_sel/recall@20/sd": 0.005052185244351881,
+            "tune_sel/ndcg@20/sd": 0.0027117018842040316,
+            "tune_sel/recall@80/sd": 0.006073977456501337,
+            "n_seeds": 5
+          }
+        },
+        "ranking": [
+          "MultiCBR",
+          "CrossCBR",
+          "BGCN",
+          "LightGCN",
+          "HyperMBR"
+        ],
+        "kendall_tau_vs_orig": 0.7999999999999999,
+        "course_aware_minus_lightgcn_recall@20": {
+          "BGCN": 0.006141610938117041,
+          "CrossCBR": 0.015838938171733867,
+          "MultiCBR": 0.04019798331664274,
+          "HyperMBR": -0.0051423420549879945
+        }
+      }
+    },
+    "MealRec+L": {
+      "orig": {
+        "models": {
+          "BGCN": {
+            "tune_sel/recall@20/mean": 0.09561351792619803,
+            "tune_sel/ndcg@20/mean": 0.04867628568382635,
+            "tune_sel/recall@80/mean": 0.18487323755335283,
+            "tune_sel/recall@20/sd": 0.014108655755209691,
+            "tune_sel/ndcg@20/sd": 0.006982654093005818,
+            "tune_sel/recall@80/sd": 0.00965880408459699,
+            "n_seeds": 5
+          },
+          "CrossCBR": {
+            "tune_sel/recall@20/mean": 0.16713710401030285,
+            "tune_sel/ndcg@20/mean": 0.09202912816397825,
+            "tune_sel/recall@80/mean": 0.2821028227296239,
+            "tune_sel/recall@20/sd": 0.004970150214371809,
+            "tune_sel/ndcg@20/sd": 0.0008304441191516403,
+            "tune_sel/recall@80/sd": 0.005162696770022507,
+            "n_seeds": 5
+          },
+          "HyperMBR": {
+            "tune_sel/recall@20/mean": 0.04884394583962307,
+            "tune_sel/ndcg@20/mean": 0.02199931648844855,
+            "tune_sel/recall@80/mean": 0.11937239833493436,
+            "tune_sel/recall@20/sd": 0.003724082177668493,
+            "tune_sel/ndcg@20/sd": 0.0023553287156345627,
+            "tune_sel/recall@80/sd": 0.007120208311134952,
+            "n_seeds": 5
+          },
+          "LightGCN": {
+            "tune_sel/recall@20/mean": 0.057337038561822415,
+            "tune_sel/ndcg@20/mean": 0.029350099659558045,
+            "tune_sel/recall@80/mean": 0.11686597664263369,
+            "tune_sel/recall@20/sd": 0.004892758580529602,
+            "tune_sel/ndcg@20/sd": 0.001663695555849049,
+            "tune_sel/recall@80/sd": 0.009463896466443349,
+            "n_seeds": 5
+          },
+          "MultiCBR": {
+            "tune_sel/recall@20/mean": 0.14083261199255434,
+            "tune_sel/ndcg@20/mean": 0.07201843582724118,
+            "tune_sel/recall@80/mean": 0.2513299324754656,
+            "tune_sel/recall@20/sd": 0.009862669243163459,
+            "tune_sel/ndcg@20/sd": 0.006085289461243478,
+            "tune_sel/recall@80/sd": 0.012150609879021132,
+            "n_seeds": 5
+          }
+        },
+        "ranking": [
+          "CrossCBR",
+          "MultiCBR",
+          "BGCN",
+          "LightGCN",
+          "HyperMBR"
+        ],
+        "course_aware_minus_lightgcn_recall@20": {
+          "BGCN": 0.038276479364375615,
+          "CrossCBR": 0.10980006544848044,
+          "MultiCBR": 0.08349557343073193,
+          "HyperMBR": -0.008493092722199343
+        }
+      },
+      "p1": {
+        "models": {
+          "BGCN": {
+            "tune_sel/recall@20/mean": 0.09266362999792395,
+            "tune_sel/ndcg@20/mean": 0.04690163311468728,
+            "tune_sel/recall@80/mean": 0.18373239312720582,
+            "tune_sel/recall@20/sd": 0.013017055578334899,
+            "tune_sel/ndcg@20/sd": 0.006854451763331358,
+            "tune_sel/recall@80/sd": 0.009462844779137558,
+            "n_seeds": 5
+          },
+          "CrossCBR": {
+            "tune_sel/recall@20/mean": 0.09558304567670561,
+            "tune_sel/ndcg@20/mean": 0.04973092082293014,
+            "tune_sel/recall@80/mean": 0.1787335015288906,
+            "tune_sel/recall@20/sd": 0.006263875770537778,
+            "tune_sel/ndcg@20/sd": 0.0018043974398989026,
+            "tune_sel/recall@80/sd": 0.005616237023969257,
+            "n_seeds": 5
+          },
+          "HyperMBR": {
+            "tune_sel/recall@20/mean": 0.05260475275604959,
+            "tune_sel/ndcg@20/mean": 0.024911457780045256,
+            "tune_sel/recall@80/mean": 0.11875817666163486,
+            "tune_sel/recall@20/sd": 0.005464391891190496,
+            "tune_sel/ndcg@20/sd": 0.003316475079919255,
+            "tune_sel/recall@80/sd": 0.01187811712846395,
+            "n_seeds": 5
+          },
+          "LightGCN": {
+            "tune_sel/recall@20/mean": 0.057337038561822415,
+            "tune_sel/ndcg@20/mean": 0.029350099659558045,
+            "tune_sel/recall@80/mean": 0.11686597664263369,
+            "tune_sel/recall@20/sd": 0.004892758580529602,
+            "tune_sel/ndcg@20/sd": 0.001663695555849049,
+            "tune_sel/recall@80/sd": 0.009463896466443349,
+            "n_seeds": 5
+          },
+          "MultiCBR": {
+            "tune_sel/recall@20/mean": 0.09368773157678056,
+            "tune_sel/ndcg@20/mean": 0.04782657116745308,
+            "tune_sel/recall@80/mean": 0.1748049301003191,
+            "tune_sel/recall@20/sd": 0.0075090485812115354,
+            "tune_sel/ndcg@20/sd": 0.0033124852346503395,
+            "tune_sel/recall@80/sd": 0.006429812069628622,
+            "n_seeds": 5
+          }
+        },
+        "ranking": [
+          "CrossCBR",
+          "MultiCBR",
+          "BGCN",
+          "LightGCN",
+          "HyperMBR"
+        ],
+        "kendall_tau_vs_orig": 0.9999999999999999,
+        "course_aware_minus_lightgcn_recall@20": {
+          "BGCN": 0.035326591436101534,
+          "CrossCBR": 0.0382460071148832,
+          "MultiCBR": 0.03635069301495815,
+          "HyperMBR": -0.004732285805772826
+        }
+      },
+      "p2": {
+        "models": {
+          "BGCN": {
+            "tune_sel/recall@20/mean": 0.029145185361739896,
+            "tune_sel/ndcg@20/mean": 0.01281407848865462,
+            "tune_sel/recall@80/mean": 0.09344501940777643,
+            "tune_sel/recall@20/sd": 0.008500322195683148,
+            "tune_sel/ndcg@20/sd": 0.002833903342232788,
+            "tune_sel/recall@80/sd": 0.014039971952175132,
+            "n_seeds": 5
+          },
+          "CrossCBR": {
+            "tune_sel/recall@20/mean": 0.040238065950467,
+            "tune_sel/ndcg@20/mean": 0.02053882291175237,
+            "tune_sel/recall@80/mean": 0.10230589820451416,
+            "tune_sel/recall@20/sd": 0.004320259890270572,
+            "tune_sel/ndcg@20/sd": 0.0023676711250862235,
+            "tune_sel/recall@80/sd": 0.011117490426325235,
+            "n_seeds": 5
+          },
+          "HyperMBR": {
+            "tune_sel/recall@20/mean": 0.01568883571289283,
+            "tune_sel/ndcg@20/mean": 0.008045051882247207,
+            "tune_sel/recall@80/mean": 0.060503626276153244,
+            "tune_sel/recall@20/sd": 0.0037037009524896,
+            "tune_sel/ndcg@20/sd": 0.001858426244355426,
+            "tune_sel/recall@80/sd": 0.010751122776474413,
+            "n_seeds": 5
+          },
+          "LightGCN": {
+            "tune_sel/recall@20/mean": 0.027526905733216596,
+            "tune_sel/ndcg@20/mean": 0.015508673235551648,
+            "tune_sel/recall@80/mean": 0.07382870549819513,
+            "tune_sel/recall@20/sd": 0.0047178482477938525,
+            "tune_sel/ndcg@20/sd": 0.003777592378475153,
+            "tune_sel/recall@80/sd": 0.009187966616799574,
+            "n_seeds": 5
+          },
+          "MultiCBR": {
+            "tune_sel/recall@20/mean": 0.058050567061627256,
+            "tune_sel/ndcg@20/mean": 0.03344565551124669,
+            "tune_sel/recall@80/mean": 0.1309441977456135,
+            "tune_sel/recall@20/sd": 0.00308910927118686,
+            "tune_sel/ndcg@20/sd": 0.0020885358394822843,
+            "tune_sel/recall@80/sd": 0.015206482916949742,
+            "n_seeds": 5
+          }
+        },
+        "ranking": [
+          "MultiCBR",
+          "CrossCBR",
+          "BGCN",
+          "LightGCN",
+          "HyperMBR"
+        ],
+        "kendall_tau_vs_orig": 0.7999999999999999,
+        "course_aware_minus_lightgcn_recall@20": {
+          "BGCN": 0.0016182796285232996,
+          "CrossCBR": 0.012711160217250404,
+          "MultiCBR": 0.03052366132841066,
+          "HyperMBR": -0.011838070020323766
+        }
+      }
+    }
+  }
+}

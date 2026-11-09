@@ -1,0 +1,26 @@
+# G1: iFashion, upstream configs; orig vs P1-retrained; LightGCN reads no user_item (control)
+--protocol orig --dataset iFashion --model MultiCBR --seed 0
+--protocol orig --dataset iFashion --model MultiCBR --seed 1
+--protocol orig --dataset iFashion --model MultiCBR --seed 2
+--protocol orig --dataset iFashion --model MultiCBR --seed 3
+--protocol orig --dataset iFashion --model MultiCBR --seed 4
+--protocol orig --dataset iFashion --model CrossCBR --seed 0
+--protocol orig --dataset iFashion --model CrossCBR --seed 1
+--protocol orig --dataset iFashion --model CrossCBR --seed 2
+--protocol orig --dataset iFashion --model CrossCBR --seed 3
+--protocol orig --dataset iFashion --model CrossCBR --seed 4
+--protocol p1 --dataset iFashion --model MultiCBR --seed 0
+--protocol p1 --dataset iFashion --model MultiCBR --seed 1
+--protocol p1 --dataset iFashion --model MultiCBR --seed 2
+--protocol p1 --dataset iFashion --model MultiCBR --seed 3
+--protocol p1 --dataset iFashion --model MultiCBR --seed 4
+--protocol p1 --dataset iFashion --model CrossCBR --seed 0
+--protocol p1 --dataset iFashion --model CrossCBR --seed 1
+--protocol p1 --dataset iFashion --model CrossCBR --seed 2
+--protocol p1 --dataset iFashion --model CrossCBR --seed 3
+--protocol p1 --dataset iFashion --model CrossCBR --seed 4
+--protocol orig --dataset iFashion --model LightGCN --seed 0
+--protocol orig --dataset iFashion --model LightGCN --seed 1
+--protocol orig --dataset iFashion --model LightGCN --seed 2
+--protocol orig --dataset iFashion --model LightGCN --seed 3
+--protocol orig --dataset iFashion --model LightGCN --seed 4

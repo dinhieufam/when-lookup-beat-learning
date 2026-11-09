@@ -1,0 +1,410 @@
+{
+  "iFashion/MultiCBR": {
+    "seeds": [
+      {
+        "seed": 0,
+        "leaked_edges": 275843,
+        "placebo_edges": 275808,
+        "released": 0.15014336676736947,
+        "counterfactual": 0.09843205491671919,
+        "placebo": 0.15689640130312357
+      },
+      {
+        "seed": 1,
+        "leaked_edges": 275843,
+        "placebo_edges": 275808,
+        "released": 0.1488229225066886,
+        "counterfactual": 0.09799981842573086,
+        "placebo": 0.15659593563111762
+      },
+      {
+        "seed": 2,
+        "leaked_edges": 275843,
+        "placebo_edges": 275808,
+        "released": 0.14945880165135375,
+        "counterfactual": 0.09796144674187562,
+        "placebo": 0.15633573749824556
+      },
+      {
+        "seed": 3,
+        "leaked_edges": 275843,
+        "placebo_edges": 275808,
+        "released": 0.14939940659789394,
+        "counterfactual": 0.09707099563164517,
+        "placebo": 0.1563058085873615
+      },
+      {
+        "seed": 4,
+        "leaked_edges": 275843,
+        "placebo_edges": 275808,
+        "released": 0.14922887715300823,
+        "counterfactual": 0.09840021544267824,
+        "placebo": 0.15622452313193308
+      }
+    ],
+    "mean": {
+      "released": 0.1494106749352628,
+      "counterfactual": 0.09797290623172981,
+      "placebo": 0.1564716812303563
+    },
+    "drop_counterfactual": 0.34427104171653156,
+    "drop_placebo": -0.047259048245066104
+  },
+  "iFashion/CrossCBR": {
+    "seeds": [
+      {
+        "seed": 0,
+        "leaked_edges": 275843,
+        "placebo_edges": 275808,
+        "released": 0.11550755795587447,
+        "counterfactual": 0.0978600172515312,
+        "placebo": 0.11795538104482262
+      },
+      {
+        "seed": 1,
+        "leaked_edges": 275843,
+        "placebo_edges": 275808,
+        "released": 0.11506713111276648,
+        "counterfactual": 0.09692128660914626,
+        "placebo": 0.11756202726236117
+      },
+      {
+        "seed": 2,
+        "leaked_edges": 275843,
+        "placebo_edges": 275808,
+        "released": 0.11524984034095649,
+        "counterfactual": 0.09760574477353395,
+        "placebo": 0.11783332739535983
+      },
+      {
+        "seed": 3,
+        "leaked_edges": 275843,
+        "placebo_edges": 275808,
+        "released": 0.11510161289519856,
+        "counterfactual": 0.09756926171452904,
+        "placebo": 0.11790976259614543
+      },
+      {
+        "seed": 4,
+        "leaked_edges": 275843,
+        "placebo_edges": 275808,
+        "released": 0.11502227444074702,
+        "counterfactual": 0.09734923807653001,
+        "placebo": 0.11750104844018884
+      }
+    ],
+    "mean": {
+      "released": 0.11518968334910859,
+      "counterfactual": 0.09746110968505409,
+      "placebo": 0.11775230934777559
+    },
+    "drop_counterfactual": 0.15390765169762655,
+    "drop_placebo": -0.022247009664054573
+  },
+  "MealRec+L/CrossCBR": {
+    "seeds": [
+      {
+        "seed": 0,
+        "leaked_edges": 4678,
+        "placebo_edges": 4676,
+        "released": 0.16447269109372856,
+        "counterfactual": 0.11884348840400714,
+        "placebo": 0.16879545766433374
+      },
+      {
+        "seed": 1,
+        "leaked_edges": 4678,
+        "placebo_edges": 4676,
+        "released": 0.16041295000228717,
+        "counterfactual": 0.1112614930698504,
+        "placebo": 0.16414333745025386
+      },
+      {
+        "seed": 2,
+        "leaked_edges": 4678,
+        "placebo_edges": 4676,
+        "released": 0.17155199107648675,
+        "counterfactual": 0.110298019303783,
+        "placebo": 0.17419368175852323
+      },
+      {
+        "seed": 3,
+        "leaked_edges": 4678,
+        "placebo_edges": 4676,
+        "released": 0.17232914779744749,
+        "counterfactual": 0.10855118704542334,
+        "placebo": 0.17364999313846574
+      },
+      {
+        "seed": 4,
+        "leaked_edges": 4678,
+        "placebo_edges": 4676,
+        "released": 0.1669187400815643,
+        "counterfactual": 0.11142722551223991,
+        "placebo": 0.1652376641929956
+      }
+    ],
+    "mean": {
+      "released": 0.16713710401030285,
+      "counterfactual": 0.11207628266706075,
+      "placebo": 0.16920402684091443
+    },
+    "drop_counterfactual": 0.329435056741488,
+    "drop_placebo": -0.01236663063447696
+  },
+  "MealRec+L/MultiCBR": {
+    "seeds": [
+      {
+        "seed": 0,
+        "leaked_edges": 4678,
+        "placebo_edges": 4676,
+        "released": 0.14208627587590122,
+        "counterfactual": 0.10361365339751508,
+        "placebo": 0.1476098109383412
+      },
+      {
+        "seed": 1,
+        "leaked_edges": 4678,
+        "placebo_edges": 4676,
+        "released": 0.12497312565756367,
+        "counterfactual": 0.09339291432230913,
+        "placebo": 0.13698081057591144
+      },
+      {
+        "seed": 2,
+        "leaked_edges": 4678,
+        "placebo_edges": 4676,
+        "released": 0.1504740176570148,
+        "counterfactual": 0.11228957961666895,
+        "placebo": 0.1562377064178217
+      },
+      {
+        "seed": 3,
+        "leaked_edges": 4678,
+        "placebo_edges": 4676,
+        "released": 0.14723365811262065,
+        "counterfactual": 0.10801998993641646,
+        "placebo": 0.15347765427016147
+      },
+      {
+        "seed": 4,
+        "leaked_edges": 4678,
+        "placebo_edges": 4676,
+        "released": 0.1393959826596714,
+        "counterfactual": 0.10460571688957855,
+        "placebo": 0.15476581935515651
+      }
+    ],
+    "mean": {
+      "released": 0.14083261199255434,
+      "counterfactual": 0.10438437083249763,
+      "placebo": 0.1498143603114785
+    },
+    "drop_counterfactual": 0.25880540483040737,
+    "drop_placebo": -0.06377605436586675
+  },
+  "MealRec+L/BGCN": {
+    "seeds": [
+      {
+        "seed": 0,
+        "leaked_edges": 4678,
+        "placebo_edges": 4676,
+        "released": 0.07548202278029367,
+        "counterfactual": 0.07596233017702758,
+        "placebo": 0.07548202278029367
+      },
+      {
+        "seed": 1,
+        "leaked_edges": 4678,
+        "placebo_edges": 4676,
+        "released": 0.09350498604821372,
+        "counterfactual": 0.09302467865147979,
+        "placebo": 0.09350498604821372
+      },
+      {
+        "seed": 2,
+        "leaked_edges": 4678,
+        "placebo_edges": 4676,
+        "released": 0.09823372672796303,
+        "counterfactual": 0.0989541878230639,
+        "placebo": 0.0989541878230639
+      },
+      {
+        "seed": 3,
+        "leaked_edges": 4678,
+        "placebo_edges": 4676,
+        "released": 0.09574976336503714,
+        "counterfactual": 0.09526945596830323,
+        "placebo": 0.09719068555523887
+      },
+      {
+        "seed": 4,
+        "leaked_edges": 4678,
+        "placebo_edges": 4676,
+        "released": 0.11509709070948262,
+        "counterfactual": 0.1158175518045835,
+        "placebo": 0.11509709070948262
+      }
+    ],
+    "mean": {
+      "released": 0.09561351792619803,
+      "counterfactual": 0.09580564088489159,
+      "placebo": 0.09604579458325854
+    },
+    "drop_counterfactual": -0.0020093702528742874,
+    "drop_placebo": -0.004521083068967036
+  },
+  "MealRec+H/CrossCBR": {
+    "seeds": [
+      {
+        "seed": 0,
+        "leaked_edges": 4201,
+        "placebo_edges": 4201,
+        "released": 0.34216224348554175,
+        "counterfactual": 0.31534742061512555,
+        "placebo": 0.33947125995680444
+      },
+      {
+        "seed": 1,
+        "leaked_edges": 4201,
+        "placebo_edges": 4201,
+        "released": 0.33546023415659754,
+        "counterfactual": 0.30359129677112107,
+        "placebo": 0.33310658893056777
+      },
+      {
+        "seed": 2,
+        "leaked_edges": 4201,
+        "placebo_edges": 4201,
+        "released": 0.3460355364978619,
+        "counterfactual": 0.31657307638310156,
+        "placebo": 0.3448704007349598
+      },
+      {
+        "seed": 3,
+        "leaked_edges": 4201,
+        "placebo_edges": 4201,
+        "released": 0.3366576988610843,
+        "counterfactual": 0.3089023805506974,
+        "placebo": 0.3371098118786081
+      },
+      {
+        "seed": 4,
+        "leaked_edges": 4201,
+        "placebo_edges": 4201,
+        "released": 0.34663307637041374,
+        "counterfactual": 0.3129226457911111,
+        "placebo": 0.34358581940971966
+      }
+    ],
+    "mean": {
+      "released": 0.34138975787429987,
+      "counterfactual": 0.31146736402223135,
+      "placebo": 0.339628776182132
+    },
+    "drop_counterfactual": 0.08764877434631757,
+    "drop_placebo": 0.005158273356332677
+  },
+  "MealRec+H/MultiCBR": {
+    "seeds": [
+      {
+        "seed": 0,
+        "leaked_edges": 4201,
+        "placebo_edges": 4201,
+        "released": 0.2702715834637677,
+        "counterfactual": 0.25229335931408925,
+        "placebo": 0.26826932181159574
+      },
+      {
+        "seed": 1,
+        "leaked_edges": 4201,
+        "placebo_edges": 4201,
+        "released": 0.2815106804389336,
+        "counterfactual": 0.267561234712109,
+        "placebo": 0.28279610048274206
+      },
+      {
+        "seed": 2,
+        "leaked_edges": 4201,
+        "placebo_edges": 4201,
+        "released": 0.27227777491256755,
+        "counterfactual": 0.2587074182295538,
+        "placebo": 0.2705678635392809
+      },
+      {
+        "seed": 3,
+        "leaked_edges": 4201,
+        "placebo_edges": 4201,
+        "released": 0.2766315414351178,
+        "counterfactual": 0.2668499650850872,
+        "placebo": 0.27214635310791874
+      },
+      {
+        "seed": 4,
+        "leaked_edges": 4201,
+        "placebo_edges": 4201,
+        "released": 0.28065329335238753,
+        "counterfactual": 0.2696623503237426,
+        "placebo": 0.28373310437654325
+      }
+    ],
+    "mean": {
+      "released": 0.27626897472055484,
+      "counterfactual": 0.26301486553291636,
+      "placebo": 0.2755025486636161
+    },
+    "drop_counterfactual": 0.04797538051836969,
+    "drop_placebo": 0.0027742024152873634
+  },
+  "MealRec+H/BGCN": {
+    "seeds": [
+      {
+        "seed": 0,
+        "leaked_edges": 4201,
+        "placebo_edges": 4201,
+        "released": 0.2161992605122604,
+        "counterfactual": 0.21616023155277245,
+        "placebo": 0.21613941610771223
+      },
+      {
+        "seed": 1,
+        "leaked_edges": 4201,
+        "placebo_edges": 4201,
+        "released": 0.23068686007177858,
+        "counterfactual": 0.23038763804903772,
+        "placebo": 0.23122193945362104
+      },
+      {
+        "seed": 2,
+        "leaked_edges": 4201,
+        "placebo_edges": 4201,
+        "released": 0.23233051600249247,
+        "counterfactual": 0.23233051600249247,
+        "placebo": 0.23211678598624905
+      },
+      {
+        "seed": 3,
+        "leaked_edges": 4201,
+        "placebo_edges": 4201,
+        "released": 0.21891541222129593,
+        "counterfactual": 0.21738937990531748,
+        "placebo": 0.21718419908972375
+      },
+      {
+        "seed": 4,
+        "leaked_edges": 4201,
+        "placebo_edges": 4201,
+        "released": 0.225619797863,
+        "counterfactual": 0.22469787054969026,
+        "placebo": 0.22467222294774106
+      }
+    ],
+    "mean": {
+      "released": 0.22475036933416548,
+      "counterfactual": 0.22419312721186208,
+      "placebo": 0.22426691271700944
+    },
+    "drop_counterfactual": 0.0024793824542057585,
+    "drop_placebo": 0.0021510826370978453
+  }
+}

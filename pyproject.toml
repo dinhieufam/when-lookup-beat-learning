@@ -1,0 +1,9 @@
+[project]
+name = "mealrec"
+version = "0.1.0"
+description = "Audit and clean evaluation protocol for the MealRec+ meal recommendation benchmark"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

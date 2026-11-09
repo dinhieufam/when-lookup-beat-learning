@@ -1,0 +1,78 @@
+{
+  "MealRec+H": {
+    "course_space": [
+      2737,
+      2552,
+      1991
+    ],
+    "beam": 40,
+    "baselines": {
+      "SlotPop": {
+        "recall@20": 0.0,
+        "recall@80": 0.04345500089425945,
+        "slot_recall@20": 0.35285705981148785,
+        "slot_recall@80": 0.5191741978210835
+      },
+      "TrainCover-open": {
+        "recall@20": 0.1485340657712455,
+        "recall@80": 0.25669627960732067,
+        "slot_recall@20": 0.5884455307374952,
+        "slot_recall@80": 0.7000974853518311
+      }
+    },
+    "seeds": [
+      {
+        "seed": 0,
+        "catalog_trained": {
+          "epoch": 1,
+          "catalog_test": {
+            "recall@20": 0.4478744190434164,
+            "ndcg@20": 0.4093662799340168,
+            "recall@40": 0.5449777040942468,
+            "ndcg@40": 0.4337345815245851,
+            "recall@80": 0.6492177975716292,
+            "ndcg@80": 0.458573999820187
+          },
+          "open": {
+            "recall@20": 0.0985136613545549,
+            "recall@80": 0.1753423456572746,
+            "slot_recall@20": 0.5416327692338955,
+            "slot_recall@80": 0.6325841257376132
+          }
+        },
+        "open_trained": {
+          "epoch": 0,
+          "tune_curve": [
+            0.11968201945068586,
+            0.11474656859288282,
+            0.10254154396680219,
+            0.08469210865040415,
+            0.0679402848427463,
+            0.04112879575842539,
+            0.04136432350718065
+          ],
+          "open": {
+            "recall@20": 0.09641488893009093,
+            "recall@80": 0.19254534895491066,
+            "slot_recall@20": 0.5385777796314106,
+            "slot_recall@80": 0.684135284323019
+          }
+        }
+      }
+    ],
+    "catalog_trained/open_recall@20_mean": 0.0985136613545549,
+    "catalog_trained/open_recall@20_sd": 0.0,
+    "catalog_trained/open_recall@80_mean": 0.1753423456572746,
+    "catalog_trained/open_recall@80_sd": 0.0,
+    "catalog_trained/open_slot_recall@20_mean": 0.5416327692338955,
+    "catalog_trained/open_slot_recall@20_sd": 0.0,
+    "open_trained/open_recall@20_mean": 0.09641488893009093,
+    "open_trained/open_recall@20_sd": 0.0,
+    "open_trained/open_recall@80_mean": 0.19254534895491066,
+    "open_trained/open_recall@80_sd": 0.0,
+    "open_trained/open_slot_recall@20_mean": 0.5385777796314106,
+    "open_trained/open_slot_recall@20_sd": 0.0,
+    "catalog_recall@20_mean": 0.4478744190434164,
+    "seconds": 166.8604211807251
+  }
+}

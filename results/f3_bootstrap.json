@@ -1,0 +1,643 @@
+{
+  "B": 2000,
+  "seed": 0,
+  "comparisons": {
+    "iFashion/released/MultiCBR-CrossCBR": {
+      "diff": 0.034220993518829346,
+      "ci95": [
+        0.0332415072247386,
+        0.03522685840725898
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 53897
+    },
+    "iFashion/p1_upstream/CrossCBR-MultiCBR": {
+      "diff": 0.0020294785499572754,
+      "ci95": [
+        0.0012311838567256928,
+        0.002799922041594982
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 53897
+    },
+    "iFashion/p1_tuned/MultiCBR-CrossCBR": {
+      "diff": 0.004722177982330322,
+      "ci95": [
+        0.0038531893864274026,
+        0.005562236718833447
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 53897
+    },
+    "MealRec+L/released/CrossCBR-BGCN": {
+      "diff": 0.07152357697486877,
+      "ci95": [
+        0.04618105664849281,
+        0.09573581945151088
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 694
+    },
+    "MealRec+L/p1_upstream/CrossCBR-BGCN": {
+      "diff": 0.002919420599937439,
+      "ci95": [
+        -0.016028084605932236,
+        0.021786613576114177
+      ],
+      "excludes_zero": false,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 694
+    },
+    "MealRec+L/p1_tuned/CrossCBR-BGCN": {
+      "diff": 0.006257452070713043,
+      "ci95": [
+        -0.011407346092164516,
+        0.023475783504545655
+      ],
+      "excludes_zero": false,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 694
+    },
+    "MealRec+L/released/MultiCBR-BGCN": {
+      "diff": 0.04521907866001129,
+      "ci95": [
+        0.023766070231795312,
+        0.0659605510532856
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 694
+    },
+    "MealRec+L/p1_upstream/MultiCBR-BGCN": {
+      "diff": 0.0010241121053695679,
+      "ci95": [
+        -0.016165918670594692,
+        0.017958062142133708
+      ],
+      "excludes_zero": false,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 694
+    },
+    "MealRec+L/p1_tuned/MultiCBR-BGCN": {
+      "diff": 0.0006540939211845398,
+      "ci95": [
+        -0.016653278656303883,
+        0.01771388277411461
+      ],
+      "excludes_zero": false,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 694
+    },
+    "MealRec+L/released/BGCN-LightGCN": {
+      "diff": 0.03827648237347603,
+      "ci95": [
+        0.021223121136426926,
+        0.056971116550266744
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 694
+    },
+    "MealRec+L/p1_upstream/BGCN-LightGCN": {
+      "diff": 0.035326581448316574,
+      "ci95": [
+        0.01777430986985564,
+        0.05392725775018331
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 694
+    },
+    "MealRec+L/p1_tuned/BGCN-LightGCN": {
+      "diff": 0.04770948737859726,
+      "ci95": [
+        0.03041421864181757,
+        0.06533608362078666
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 694
+    },
+    "MealRec+L/released/CrossCBR-LightGCN": {
+      "diff": 0.1098000556230545,
+      "ci95": [
+        0.08395842965692282,
+        0.1348191976547241
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 694
+    },
+    "MealRec+L/p1_upstream/CrossCBR-LightGCN": {
+      "diff": 0.03824600204825401,
+      "ci95": [
+        0.01975011359900236,
+        0.05838045859709381
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 694
+    },
+    "MealRec+L/p1_tuned/CrossCBR-LightGCN": {
+      "diff": 0.0539669394493103,
+      "ci95": [
+        0.0336342616006732,
+        0.07607565857470035
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 694
+    },
+    "MealRec+L/released/MultiCBR-LightGCN": {
+      "diff": 0.08349555730819702,
+      "ci95": [
+        0.06246208995580673,
+        0.10512335933744905
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 694
+    },
+    "MealRec+L/p1_upstream/MultiCBR-LightGCN": {
+      "diff": 0.03635069355368614,
+      "ci95": [
+        0.01979650594294071,
+        0.05271131061017513
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 694
+    },
+    "MealRec+L/p1_tuned/MultiCBR-LightGCN": {
+      "diff": 0.0483635812997818,
+      "ci95": [
+        0.0294237257912755,
+        0.0687687899917364
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 694
+    },
+    "MealRec+H/released/CrossCBR-BGCN": {
+      "diff": 0.1166393905878067,
+      "ci95": [
+        0.09979193024337292,
+        0.13443105630576607
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 1114
+    },
+    "MealRec+H/p1_upstream/CrossCBR-BGCN": {
+      "diff": 0.07638634741306305,
+      "ci95": [
+        0.059797318279743196,
+        0.09333725161850452
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 1114
+    },
+    "MealRec+H/p1_tuned/CrossCBR-BGCN": {
+      "diff": 0.1193988025188446,
+      "ci95": [
+        0.0973549772053957,
+        0.14330671727657318
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 1114
+    },
+    "MealRec+H/released/MultiCBR-BGCN": {
+      "diff": 0.051518604159355164,
+      "ci95": [
+        0.03745113275945187,
+        0.06651431173086167
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 1114
+    },
+    "MealRec+H/p1_upstream/MultiCBR-BGCN": {
+      "diff": 0.03145720064640045,
+      "ci95": [
+        0.016945820674300192,
+        0.04555277712643146
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 1114
+    },
+    "MealRec+H/p1_tuned/MultiCBR-BGCN": {
+      "diff": 0.04305863380432129,
+      "ci95": [
+        0.022350551187992097,
+        0.0646379057317972
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 1114
+    },
+    "MealRec+H/released/BGCN-LightGCN": {
+      "diff": 0.03025214374065399,
+      "ci95": [
+        0.016698862612247466,
+        0.042878121137619005
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 1114
+    },
+    "MealRec+H/p1_upstream/BGCN-LightGCN": {
+      "diff": 0.03126390278339386,
+      "ci95": [
+        0.018766802921891212,
+        0.044472042843699454
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 1114
+    },
+    "MealRec+H/p1_tuned/BGCN-LightGCN": {
+      "diff": 0.032387539744377136,
+      "ci95": [
+        0.012012466788291931,
+        0.0519247282296419
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 1114
+    },
+    "MealRec+H/released/CrossCBR-LightGCN": {
+      "diff": 0.1468915343284607,
+      "ci95": [
+        0.1294009316712618,
+        0.16501864604651925
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 1114
+    },
+    "MealRec+H/p1_upstream/CrossCBR-LightGCN": {
+      "diff": 0.10765025019645691,
+      "ci95": [
+        0.0916740581393242,
+        0.12401641681790351
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 1114
+    },
+    "MealRec+H/p1_tuned/CrossCBR-LightGCN": {
+      "diff": 0.15178634226322174,
+      "ci95": [
+        0.13054272532463074,
+        0.1744865410029888
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 1114
+    },
+    "MealRec+H/released/MultiCBR-LightGCN": {
+      "diff": 0.08177074790000916,
+      "ci95": [
+        0.06724615730345249,
+        0.09692217037081718
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 1114
+    },
+    "MealRec+H/p1_upstream/MultiCBR-LightGCN": {
+      "diff": 0.06272110342979431,
+      "ci95": [
+        0.04971498847007751,
+        0.07790023200213908
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 1114
+    },
+    "MealRec+H/p1_tuned/MultiCBR-LightGCN": {
+      "diff": 0.07544617354869843,
+      "ci95": [
+        0.0591051559895277,
+        0.09231875613331793
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 1114
+    },
+    "MealRec+H/p1_tuned/BundleComp-LightGCN": {
+      "diff": 0.2910491574496479,
+      "ci95": [
+        0.2679636176087567,
+        0.31386841386080716
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 1114
+    },
+    "MealRec+H/p1_tuned/BundleComp-BGCN": {
+      "diff": 0.25866161770527074,
+      "ci95": [
+        0.23126693830431908,
+        0.28702560598297866
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 1114
+    },
+    "MealRec+H/p1_tuned/BundleComp-CrossCBR": {
+      "diff": 0.13926281518642614,
+      "ci95": [
+        0.11731104553855302,
+        0.16098606044031366
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 1114
+    },
+    "MealRec+H/p1_tuned/BundleComp-MultiCBR": {
+      "diff": 0.21560298390094945,
+      "ci95": [
+        0.19401596089647985,
+        0.2374302182858153
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 1114
+    },
+    "MealRec+L/p1_tuned/BundleComp-LightGCN": {
+      "diff": 0.1364449221758441,
+      "ci95": [
+        0.10978298014944288,
+        0.16349475442459832
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 694
+    },
+    "MealRec+L/p1_tuned/BundleComp-BGCN": {
+      "diff": 0.08873543479724685,
+      "ci95": [
+        0.06722257832570912,
+        0.10959020861056892
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 694
+    },
+    "MealRec+L/p1_tuned/BundleComp-CrossCBR": {
+      "diff": 0.08247798272653381,
+      "ci95": [
+        0.06219321424996036,
+        0.10297000359119696
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 694
+    },
+    "MealRec+L/p1_tuned/BundleComp-MultiCBR": {
+      "diff": 0.08808134087606231,
+      "ci95": [
+        0.06509124233178364,
+        0.10915248030614938
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 694
+    },
+    "Youshu/p1_tuned/BundleComp-CrossCBR": {
+      "diff": 0.008051299261829181,
+      "ci95": [
+        -0.002686594253043806,
+        0.018982382665473377
+      ],
+      "excludes_zero": false,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 2959
+    },
+    "Youshu/p1_tuned/BundleComp-MultiCBR": {
+      "diff": 0.001999162840625568,
+      "ci95": [
+        -0.007314012183604138,
+        0.011788131875064452
+      ],
+      "excludes_zero": false,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 2959
+    },
+    "NetEase/p1_tuned/BundleComp-CrossCBR": {
+      "diff": 0.005908364741545297,
+      "ci95": [
+        0.0030406206559962143,
+        0.0087194134160451
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 18514
+    },
+    "NetEase/p1_tuned/BundleComp-MultiCBR": {
+      "diff": 0.00240762749169407,
+      "ci95": [
+        -0.0003235713252480628,
+        0.0053447237161943556
+      ],
+      "excludes_zero": false,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 18514
+    },
+    "iFashion/p1_tuned/BundleComp-CrossCBR": {
+      "diff": -0.016290151402925626,
+      "ci95": [
+        -0.017367526088551206,
+        -0.015130425748269054
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 53897
+    },
+    "iFashion/p1_tuned/BundleComp-MultiCBR": {
+      "diff": -0.02101232938525595,
+      "ci95": [
+        -0.02219189232414092,
+        -0.019952368083612476
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 53897
+    },
+    "MealRec+H/p1_tuned/CompMeal-CrossCBR": {
+      "diff": 0.17389173489735898,
+      "ci95": [
+        0.15271228078071614,
+        0.19507865961691004
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 1114
+    },
+    "MealRec+L/p1_tuned/CompMeal-CrossCBR": {
+      "diff": 0.07285765428776153,
+      "ci95": [
+        0.05404745576644492,
+        0.09357786636834063
+      ],
+      "excludes_zero": true,
+      "seeds": [
+        5,
+        5
+      ],
+      "n_users": 694
+    }
+  }
+}

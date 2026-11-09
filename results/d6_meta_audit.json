@@ -1,0 +1,102 @@
+{
+  "MealRec+H": {
+    "ratings": {
+      "4": 49986,
+      "5": 101162
+    },
+    "review_dates": [
+      "2000-02-15",
+      "2018-03-14"
+    ],
+    "session_span": {
+      "train": {
+        "median_days": 958.0,
+        "p25_days": 444.0,
+        "p75_days": 1718.0,
+        "share_same_day": 0.0019244647582391148,
+        "share_over_1_year": 0.7953919760511052
+      },
+      "tune": {
+        "median_days": 955.0,
+        "p25_days": 458.0,
+        "p75_days": 1723.0,
+        "share_same_day": 0.0008552490912978405,
+        "share_over_1_year": 0.796023091725465
+      },
+      "test": {
+        "median_days": 960.0,
+        "p25_days": 453.0,
+        "p75_days": 1693.0,
+        "share_same_day": 0.001710498182595681,
+        "share_over_1_year": 0.7983750267265342
+      }
+    },
+    "courses_in_any_meal": 942,
+    "courses_total": 7280,
+    "dessert_word_share_by_category": {
+      "appetizer": 0.02702702702702703,
+      "dessert": 0.5817490494296578,
+      "main-dish": 0.015665796344647518
+    },
+    "fsa_recompute_agreement_per_serving_vs_100g_thresholds": 0.36607142857142855,
+    "meal_fsa": {
+      "mean": 9.275783774342854,
+      "sd": 0.8597248661367436,
+      "share_le_8": 0.10086455331412104
+    },
+    "meal_who": {
+      "mean": 2.0601694175181207,
+      "sd": 0.6332703573980468
+    }
+  },
+  "MealRec+L": {
+    "ratings": {
+      "4": 60700,
+      "5": 120387
+    },
+    "review_dates": [
+      "2000-02-15",
+      "2018-03-13"
+    ],
+    "session_span": {
+      "train": {
+        "median_days": 875.0,
+        "p25_days": 350.0,
+        "p75_days": 1611.0,
+        "share_same_day": 0.011752249867654843,
+        "share_over_1_year": 0.7414505029115934
+      },
+      "tune": {
+        "median_days": 851.0,
+        "p25_days": 352.0,
+        "p75_days": 1673.0,
+        "share_same_day": 0.01100762066045724,
+        "share_over_1_year": 0.7400508044030483
+      },
+      "test": {
+        "median_days": 884.0,
+        "p25_days": 370.0,
+        "p75_days": 1697.0,
+        "share_same_day": 0.015241320914479255,
+        "share_over_1_year": 0.7519051651143099
+      }
+    },
+    "courses_in_any_meal": 1956,
+    "courses_total": 10589,
+    "dessert_word_share_by_category": {
+      "appetizers": 0.011686143572621035,
+      "desserts": 0.5007704160246533,
+      "main-dish": 0.011299435028248588
+    },
+    "fsa_recompute_agreement_per_serving_vs_100g_thresholds": 0.370384361129474,
+    "meal_fsa": {
+      "mean": 9.240637227501397,
+      "sd": 0.9149318259162916,
+      "share_le_8": 0.1277249860257127
+    },
+    "meal_who": {
+      "mean": 2.0605552450158378,
+      "sd": 0.6726930266377436
+    }
+  }
+}
